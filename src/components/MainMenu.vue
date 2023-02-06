@@ -23,7 +23,7 @@ light_mode
 <style scoped lang="scss">
 .base {
   margin: 0;
-  background-color: rgba(10,10,10,0.5);
+  background-color: rgba(10,10,10,0.75);
   position: absolute;
   width: 100%;
   top: 2.2rem;

@@ -14,7 +14,7 @@
     <NavBar class="nav"/>
     <div class="container">
       <div class="sections">
-        <HeroSection/><br>
+        <HeroSection/>
         <AboutMe/><br>
         <!--<ParallaxHero />-->
         <TechSection/><br>
@@ -32,18 +32,13 @@
 
 .main {
   max-width: 650px;
-  margin: 0 2rem 2rem 2rem;
-  border: 2px solid black;
-  padding: 0 2rem;
+  /*border: 2px solid black;*/
 }
 
 .nav {
-  position: sticky;
+  position: fixed;
+  width: 100vw;
   z-index: 100;
-}
-.sections {
-  background-color:white;
-
 }
 
 </style>

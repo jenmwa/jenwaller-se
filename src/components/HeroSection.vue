@@ -3,19 +3,18 @@
 
 <template>
   <header>
+    <div class="img">
+      <img class="image" src="/profilbild_jw.jpg">    
+    </div>
     <div class="container">
-      <p>Hi there</p>
+      <p>Welcome</p>
       <h1>I'm Jenny</h1>
-      <p>Front End Developer</p>
+      <p><span class="soon">soon-to-be</span> Front End Developer</p>
       <p class="textColor">
         <span class="material-symbols-outlined">location_on</span>
         Karlstad</p>
     </div>
   </header>
-  <div class="about">
-    <div class="about-text"></div>
-    <div class="img"></div>    
-  </div>
 
 </template>
 
@@ -37,11 +36,11 @@ header {
 .container {
   position: relative;
   top: 9rem;
-  border: 2px solid $primaryColorDark; 
+  /*border: 2px solid $primaryColorDark; */
+  margin: 2rem;
 
   p {
     text-transform: uppercase;
-    font-size: 1rem;
     margin-bottom: 0;
   }
 
@@ -60,16 +59,29 @@ header {
   .textColor {
   color: $accessoryColor;
   }
-  p span {
+
+ .material-symbols-outlined {
     position: relative;
     top: 0.3rem;
     color: $accessoryColor;
+    transition: transform 500ms;
+    transition-timing-function: cubic-bezier(.75, -3, .25, 4);
+    cursor:default;
 
     &:hover {
-      scale: 1.2;
+      transform: scale(1.1);
       transition: .4s ease-in;
       color: $accessoryColor2;
     }
+  }
+
+  .soon {
+    text-transform: none;
+    font-style: italic;
+    font-size: 0.75rem;
+    margin-bottom: 0.2rem;
+    color: $primaryColorLight;
+    display: block;
   }
 }
 
@@ -78,6 +90,14 @@ header {
   position: relative;
   display: flex;
 }
-
+  .image {
+  width: 250px;
+  border-radius: 50%;
+  position: absolute;
+  left: 13rem;
+  //right: 2rem;
+  top: 8rem;
+  box-shadow: 1px 1px 16px $tertiaryColorDark;
+  }
 
 </style>

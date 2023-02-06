@@ -23,7 +23,7 @@ export default {
 
 <template>
   <div class="navbar">
-    jenwaller.se
+    <p>jenwaller.se</p>
     <BurgerButton @click="toggleMenu"/>
     <transition name="slide-fade">
       <MainMenu class="mainmenu" v-if="showMenu"/>
@@ -34,11 +34,26 @@ export default {
 
 <style scoped lang="scss">
 .navbar {
+  height: 50px;
   background-color: black;
   color: $accessoryColor;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 2rem;
+  max-width: 620px;
+
+  p {
+    transition: transform 500ms;
+    transition-timing-function: cubic-bezier(.75, -3, .25, 4);
+    cursor:default;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: .4s ease-in;
+      color: $accessoryColor2;
+    }
+  }
 }
 
 /* Enter and leave animations can use different */
