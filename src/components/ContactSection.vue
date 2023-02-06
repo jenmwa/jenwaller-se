@@ -7,7 +7,7 @@
   <style scoped lang="scss">
   
   div {
-    background-color: $primaryColorLight; 
+    background-color: $tertiaryColorLight; 
     border: 2px solid darkslategray;
   }
   

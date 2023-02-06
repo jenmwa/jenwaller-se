@@ -24,7 +24,7 @@ header {
   background-color: black;
   min-height: 70vh;
   width: 100%;
-  background-image: url('./backgroundImg.jpg');
+  background-image: url('/backgroundImg.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   color: $primaryColorLight;
@@ -44,7 +44,8 @@ header {
     margin-bottom: 0;
   }
 
-  h1 {
+  h1 {color: $tertiaryColorLight;
+
     margin-top: -1rem;
     font-size: 5rem;
     font-family: $secondaryFont;
