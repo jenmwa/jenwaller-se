@@ -7,7 +7,7 @@
       <img class="image" src="/profilbild_jw.jpg">    
     </div>
     <div class="container">
-      <p>Welcome</p>
+      <p>Hi There</p>
       <h1>I'm Jenny</h1>
       <p><span class="soon">soon-to-be</span> Front End Developer</p>
       <p class="textColor">

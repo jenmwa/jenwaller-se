@@ -1,6 +1,6 @@
 <template>
   <div>
-   <p>Hi There</p>
+   <p>Welcome</p>
    <h2>Don't be a stranger!</h2> 
     <span class="material-symbols-outlined">waving_hand</span>
     <p class="about-me-text">I'm Jenny, Nice to meet you! </p>
@@ -75,6 +75,8 @@ h2 {
     height: 0; 
   
     .meaning-of-life {
+      font-size: 0.75;
+      font-weight: 100;
       margin-left: auto;
       padding-left: 1rem;
       text-transform: none;
