@@ -2,6 +2,7 @@
   import NavBar from './components/NavBar.vue';
   import HeroSection from './components/HeroSection.vue';
   import AboutMe from './components/AboutMe.vue';
+  /*import ParallaxHero from './components/ParallaxHero.vue';*/
   import TechSection from './components/TechSection.vue';
   import ProjectSection from './components/ProjectSection.vue';
   import ContactSection from './components/ContactSection.vue';
@@ -15,6 +16,7 @@
       <div class="sections">
         <HeroSection/><br>
         <AboutMe/><br>
+        <!--<ParallaxHero />-->
         <TechSection/><br>
         <ProjectSection/><br>
         <ContactSection/><br>
@@ -35,6 +37,10 @@
   padding: 0 2rem;
 }
 
+.nav {
+  position: sticky;
+  z-index: 100;
+}
 .sections {
   background-color:white;
 

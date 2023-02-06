@@ -48,7 +48,7 @@ button {
   transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .burger-bar {
-  background-color: #000;
+  background-color: $accessoryColor;
   position: absolute;
   top: 50%;
   right: 6px;
@@ -57,6 +57,10 @@ button {
   width: auto;
   margin-top: -1px;
   transition: transform .6s cubic-bezier(.165,.84,.44,1),opacity .3s cubic-bezier(.165,.84,.44,1),background-color .6s cubic-bezier(.165,.84,.44,1);
+
+  &:hover {
+   background-color: $accessoryColor2;
+  }
 }
 
 .burger-bar--1 {
