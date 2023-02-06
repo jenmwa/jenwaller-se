@@ -8,8 +8,6 @@
   methods: {
     toggle() {
       this.isOpen = !this.isOpen;
-      this.$emit('menuClick', this.isOpen);
-
      }
   }
 }
