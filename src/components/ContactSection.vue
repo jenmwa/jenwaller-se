@@ -1,6 +1,13 @@
 <template>
     <div>
-      contactsection
+      contactsection<br><br>
+  
+      jenny.waller@medieinstitutet.se<br>
+      0701507714<br>
+      linkedin<br>
+      github<br>
+      Karlstad<br>
+
     </div>
   </template>
   

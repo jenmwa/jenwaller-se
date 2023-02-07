@@ -14,7 +14,6 @@
     text-align: right;
     background: none;
     height: 0; 
-    margin-top: 5rem;
     height: auto;
   
     .meaning-of-life {
