@@ -11,6 +11,8 @@
       UX/Usability<br><br>
       Skills:<br>
       HTML CSS JavaScript SASS Bootstrap 5 Vite Github Adobe Photoshop Adobe Illustrator React Figma node.js UX/Usability Jest
+
+   
     </div>
   </template>
   

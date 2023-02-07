@@ -1,6 +1,11 @@
+<script setup>
+import CardElement from './CardElement.vue';
+</script>
+
 <template>
     <div>
-      projectsection<br><br>
+      <h3>Portfolio</h3>
+      <!-- projectsection<br><br>
       Todo<br> [javascript]<br>
       munkshoppen [grupparb. js]<br>
       ketchup<br> [grupparb. Vue+ts]<br>
@@ -10,14 +15,36 @@
       sleeq [grapphic socials + web template]<br>
       bravåbemanning [web, template +deploy]<br>
       Monroe Stainless [web, wordpress]<br>
-      stronger you [graphic]<br>
-    </div>
+      stronger you [graphic]<br> -->
+
+
+    <CardElement class="card-element"/>
+    <CardElement class="card-element"/>
+
+  </div>
   </template>
   
   <style scoped lang="scss">
   
   div {
-    background-color: $secondaryColorLight; 
+    background-image: url('/parallaxBackground.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    padding: 2rem;
+    color: $primaryColorLight;
+
+    h3 {
+    color: $tertiaryColorLight;
+    margin-top: -1rem;
+    font-size: 3rem;
+    font-family: $secondaryFont;
+    text-shadow: 1px 1px 1px $tertiaryColorDark;
+    }
+
+    .card-element {
+      margin: 2rem 0;
+    }
   }
   
   </style>

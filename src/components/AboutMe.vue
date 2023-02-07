@@ -1,7 +1,7 @@
 <template>
   <div class="about" id="about">
-    <span class="material-symbols-outlined">waving_hand</span>
-   <p>Welcome</p>
+
+   <p>Welcome     <span class="material-symbols-outlined">waving_hand</span></p>
 
    <h2>Don't be a stranger!</h2> 
     
