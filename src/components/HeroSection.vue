@@ -47,7 +47,7 @@ header {
   h1 {
     color: $tertiaryColorLight;
     margin-top: -1rem;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-family: $secondaryFont;
     text-shadow: 1px 1px 1px $tertiaryColorDark;
   }
@@ -80,7 +80,7 @@ header {
     text-transform: none;
     font-style: italic;
     font-size: 0.75rem;
-    margin-bottom: 0.2rem;
+    padding-top: 0.2rem;
     color: $primaryColorLight;
     display: block;
   }

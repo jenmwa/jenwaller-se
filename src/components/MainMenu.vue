@@ -1,15 +1,11 @@
 <template>
   <nav class="base">
-    <!-- <nav v-if="isOpen" class="base"> -->
-    <!--if-sats, visas/ visas inte om isOpen är true/false -->
     <ul>
-      <li>About</li>
+      <li><a href="#about">About</a></li>
       <li>Tech</li>
       <li>project</li>
       <li>contact</li>
-      <li><span class="material-symbols-outlined">
-light_mode
-</span></li>
+      <li><span class="material-symbols-outlined">light_mode</span></li>
     </ul>
   </nav>  
 </template>
@@ -35,6 +31,11 @@ light_mode
 
   li {
   list-style: none;
+  }
+
+  a {
+    color: $accessoryColor;
+    text-underline-offset: 0.4rem;
   }
 }
 

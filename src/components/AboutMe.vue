@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="about" id="about">
    <p>Welcome</p>
    <h2>Don't be a stranger!</h2> 
     <span class="material-symbols-outlined">waving_hand</span>
@@ -7,7 +7,7 @@
     <p class="about-me-text">I’m a Front-End Developer Student at Medieinstitutet in Stockholm, Sweden and I really enjoy playing around with colors, fonts, images, taking photos, being creative, and make websites come to life with both design and functionality.</p>
     <p class="about-me-text">Right now I’m looking for LIA for the fall 2023!<br>
       I’m looking for a company where I will be a part of a team and where I could continue grow in my role as a Front-End developer.</p>
-    <p>Should we talk?<br> Let’s connect!</p>
+    <p>Want to talk?<br> Let’s connect!</p>
 
     <img class="icons" src="/linkedin-fill-svgrepo-com.svg">
     <img class="icons" src="/email-svgrepo-com.svg">
@@ -25,9 +25,9 @@ rocket_launch
 
 <style scoped lang="scss">
 
-div {
+.about {
   padding: 2rem;
-  height: 100vh;
+  min-height: 100vh;
   /*border: 2px solid $secondaryColorDark; */
   background: linear-gradient(black, $secondaryColorDark);
   color: $secondaryColorLight;
@@ -39,7 +39,7 @@ div {
 
 h2 {
     margin-top: -0.5rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: $secondaryFont;
     text-shadow: 1px 1px 1px $tertiaryColorDark;
     display: inline;
@@ -69,10 +69,12 @@ h2 {
     }
     
   }
-  .words {
+  div.words {
     text-align: right;
     background: none;
     height: 0; 
+    margin-top: 5rem;
+    height: auto;
   
     .meaning-of-life {
       font-size: 0.75;
