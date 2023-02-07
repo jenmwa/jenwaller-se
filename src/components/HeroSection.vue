@@ -35,19 +35,19 @@ header {
 }
 .container {
   position: relative;
-  top: 9rem;
+
   /*border: 2px solid $primaryColorDark; */
-  margin: 2rem;
+  margin-left: 2rem;
 
   p {
     text-transform: uppercase;
     margin-bottom: 0;
   }
 
-  h1 {color: $tertiaryColorLight;
-
+  h1 {
+    color: $tertiaryColorLight;
     margin-top: -1rem;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: $secondaryFont;
     text-shadow: 1px 1px 1px $tertiaryColorDark;
   }
@@ -91,11 +91,14 @@ header {
   position: relative;
   display: flex;
 }
+
   .image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
   width: 250px;
   border-radius: 50%;
-  position: absolute;
-  left: 13rem;
   //right: 2rem;
   top: 8rem;
   box-shadow: 1px 1px 16px $tertiaryColorDark;
