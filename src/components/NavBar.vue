@@ -1,4 +1,4 @@
-<script>
+<script lang="js">
 import BurgerButton from './BurgerButton.vue';
 import MainMenu from './MainMenu.vue';
 

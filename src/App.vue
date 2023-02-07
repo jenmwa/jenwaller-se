@@ -7,6 +7,7 @@
   import ProjectSection from './components/ProjectSection.vue';
   import ContactSection from './components/ContactSection.vue';
   import FooterSection from './components/FooterSection.vue';
+import WildSection from './components/WildSection.vue';
 </script>
 
 <template>
@@ -19,6 +20,7 @@
         <!--<ParallaxHero />-->
         <TechSection/><br>
         <ProjectSection/><br>
+        <WildSection/><br>
         <ContactSection/><br>
       </div>
     </div>
