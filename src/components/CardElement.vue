@@ -9,10 +9,12 @@
         <h6 class="card-subtitle portfolio-card__category">Website</h6>
         <h4 class="card-title mb-2 portfolio-card__title">Project name</h4>
         <p class="card-text portfolio-card__text">Some words about the project,like an small description and maybe some background info.</p>
-        <p><span class="portfolio-card__tech portfolio-card__tech__javascript">JAVASCRIPT</span>
+        <div class="tech-stach">
+          <span class="portfolio-card__tech portfolio-card__tech__javascript">JAVASCRIPT</span>
           <span class="portfolio-card__tech portfolio-card__tech__vue">VUE</span>
           <span class="portfolio-card__tech portfolio-card__tech__html">HTML</span>
-          <span class="portfolio-card__tech portfolio-card__tech__css">(s)css</span></p>
+          <span class="portfolio-card__tech portfolio-card__tech__css">(s)css</span>
+        </div>
         <a href="#" class="card-link portfolio-card__link">Link to Github</a>
           <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
       </div>
@@ -61,7 +63,7 @@
   color: $tertiaryColorLight;
   text-transform: uppercase;
   padding: 6px;
-  margin-right: 1rem;
+  margin: 0 1rem 1rem 0;
 }
 
 .portfolio-card__tech__html {
@@ -90,5 +92,11 @@
 
 .portfolio-card__link:hover {
   color: black;
+}
+
+.tech-stach {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 </style>

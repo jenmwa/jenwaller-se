@@ -1,7 +1,7 @@
 <template>
   <div class="about" id="about">
 
-   <p>Welcome     <span class="material-symbols-outlined">waving_hand</span></p>
+   <p>Welcome<span class="material-symbols-outlined">waving_hand</span></p>
 
    <h2>Don't be a stranger!</h2> 
     
@@ -16,8 +16,8 @@
     <p>Want to talk?<br> Let’s connect!</p>
 <div class="icon-container">
 <img class="icons" src="/linkedin-fill-svgrepo-com.svg">
-<img class="icons" src="/email-svgrepo-com.svg">
 <img class="icons" src="/github-svgrepo-com.svg">
+<img class="icons" src="/email-svgrepo-com.svg">
 </div>
     <span class="material-symbols-outlined rocket">
 rocket_launch
@@ -29,7 +29,7 @@ rocket_launch
 
 .about {
   padding: 2rem;
-  min-height: 100vh;
+
   /*border: 2px solid $secondaryColorDark; */
   background: linear-gradient(black, $secondaryColorDark);
   color: $secondaryColorLight;

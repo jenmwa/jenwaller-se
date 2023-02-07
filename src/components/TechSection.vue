@@ -1,4 +1,5 @@
 <template>
+  <section class="spikes"></section>
   <section>
     <div>
       <h3>Skills</h3>
@@ -38,10 +39,29 @@
 </template>
   
   <style scoped lang="scss">
+.spikes {
+  position: relative;
+  background: $secondaryColorDark;
+}
+
+.spikes::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 30px;
+  background-size: 30px 100%;
+  background-image: linear-gradient(135deg, #414E4C 25%, transparent 25%), linear-gradient(225deg, #414E4C 25%, transparent 25%);
+  background-position: 0 0;
+}
 
   section {
     background-color: rgb(15, 15, 15);
     color: $secondaryColorLight;
+
 
 
     div {
@@ -49,6 +69,7 @@
     }
 
     h3 {
+    padding: 4rem 0 0 0;
     color: $tertiaryColorLight;
     margin-top: -1rem;
     font-size: 3rem;

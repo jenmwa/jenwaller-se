@@ -1,6 +1,6 @@
 <template>
     <div>
-      By <a href="mailto:jenny.waller@medieinstitutet.se" target="_blank">Jen Waller</a> 2023
+      <p>	&copy;</p> <a href="mailto:jenny.waller@medieinstitutet.se" target="_blank">Jen Waller</a> 2023
     </div>
   </template>
   
@@ -10,6 +10,10 @@
     background-color: $accessoryColor; 
     text-align: center;
     padding: 0.5rem;
+
+    p {
+      display: inline;
+    }
 
     a {
       color: $primaryColorDark;

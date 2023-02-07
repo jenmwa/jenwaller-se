@@ -35,6 +35,7 @@ import CardElement from './CardElement.vue';
     color: $primaryColorLight;
 
     h3 {
+    padding: 2rem 0;
     color: $tertiaryColorLight;
     margin-top: -1rem;
     font-size: 3rem;

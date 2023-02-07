@@ -19,9 +19,9 @@ import WildSection from './components/WildSection.vue';
         <AboutMe/>
         <!--<ParallaxHero />-->
         <TechSection/>
-        <ProjectSection/><br>
-        <WildSection/><br>
-        <ContactSection/><br>
+        <ProjectSection/>
+        <WildSection/>
+        <ContactSection/>
       </div>
     </div>
     <div class="footer">
