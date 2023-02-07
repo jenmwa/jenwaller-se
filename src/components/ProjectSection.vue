@@ -44,6 +44,14 @@ import CardElement from './CardElement.vue';
 
     .card-element {
       margin: 2rem 0;
+      transition: .1s ease-out;
+      cursor:default;
+
+      &:hover {
+        scale: 1.05;
+        transition: .4s ease-in;
+        border: $accessoryColor2;
+      }
     }
   }
   

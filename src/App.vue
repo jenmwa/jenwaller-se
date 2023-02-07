@@ -16,9 +16,9 @@ import WildSection from './components/WildSection.vue';
     <div class="container">
       <div class="sections">
         <HeroSection/>
-        <AboutMe/><br>
+        <AboutMe/>
         <!--<ParallaxHero />-->
-        <TechSection/><br>
+        <TechSection/>
         <ProjectSection/><br>
         <WildSection/><br>
         <ContactSection/><br>

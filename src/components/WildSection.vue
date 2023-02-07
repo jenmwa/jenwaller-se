@@ -15,16 +15,18 @@
     background: none;
     height: 0; 
     height: auto;
+    margin-right: 4rem;
+    background-color: rgb(15, 15, 15);
+    color: $tertiaryColorLight;
   
     .meaning-of-life {
-      font-size: 0.75;
-      font-weight: 100;
       margin-left: auto;
       padding-left: 1rem;
       text-transform: none;
       font-family: $secondaryFont;
       width: 70%;
       font-style: italic;
+      
     }
   }
   

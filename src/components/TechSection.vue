@@ -1,25 +1,83 @@
 <template>
+  <section>
     <div>
-      COURSES:<br>
-      HTML/CSS
-      JavaScript
-      Graphical tools for interface design
-      Testing
-      Work methodology for developers
-      Agile project work
-      API development
-      UX/Usability<br><br>
-      Skills:<br>
-      HTML CSS JavaScript SASS Bootstrap 5 Vite Github Adobe Photoshop Adobe Illustrator React Figma node.js UX/Usability Jest
-
-   
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>SASS</li>
+        <li>JAVASCRIPT</li>
+        <li>VUE</li>
+        <li>GITHUB</li>
+        <li>VITE</li>
+        <li>ADOBE (psd, illustrator, inDesign, AfterEffects)</li>
+        <li>FIGMA</li>
+      </ul>
+      and to mention: Parcel, Nodejs, React, Jest, Axios, Cypress. 
     </div>
-  </template>
+    <div>  
+      COURSES within the Front End Developer YH at MedieInstitutet:<br>
+      <ul>
+        <li>HTML/CSS</li>
+        <li>JavaScript</li>
+        <li>Graphical tools for interface design</li>
+        <li>Testing</li>
+        <li>Work methodology for developers</li>
+        <li>Agile project work</li>
+        <li>API development</li>
+        <li>UX/Usability</li>
+      </ul>
+    </div>
+    <div>
+      Want to know more?<br>
+      [img dummie of CV]<br>
+      <button type="button" >Download CV</button>
+      (or just open in a new window...)
+    </div>
+  </section>
+</template>
   
   <style scoped lang="scss">
-  
-  div {
-    border: 2px solid $tertiaryColorDark; 
+
+  section {
+    background-color: rgb(15, 15, 15);
+    color: $secondaryColorLight;
+
+
+    div {
+      padding: 2rem;
+    }
+
+    h3 {
+    color: $tertiaryColorLight;
+    margin-top: -1rem;
+    font-size: 3rem;
+    font-family: $secondaryFont;
+    text-shadow: 1px 1px 1px $tertiaryColorDark;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+    }
   }
   
+  button {
+    text-transform: uppercase;
+    margin: 1rem 0;
+    display: block;
+    background-color: $accessoryColor;
+    transition: transform 500ms;
+    transition-timing-function: cubic-bezier(.75, -3, .25, 4);
+
+    &:hover {
+      background-color: $accessoryColor2;
+      transform: scale(1.1);
+      transition: .4s ease-in;
+      color: $primaryColorLight;
+    }
+  }
+
+
   </style>
