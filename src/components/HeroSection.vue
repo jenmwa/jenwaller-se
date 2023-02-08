@@ -1,10 +1,9 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <header>
     <div class="img">
-      <img class="image" src="/profilbild_jw.jpg">    
+      <img class="image" src="/profilbild_jw.jpg" />
     </div>
     <div class="container">
       <p>Hi There</p>
@@ -12,26 +11,24 @@
       <p><span class="soon">soon-to-be</span> Front End Developer</p>
       <p class="textColor">
         <span class="material-symbols-outlined">location_on</span>
-        Karlstad</p>
+        Karlstad
+      </p>
     </div>
   </header>
-
 </template>
 
 <style scoped lang="scss">
-
 header {
   background-color: black;
   min-height: 70vh;
   width: 100%;
   background-image: url('/backgroundImg.jpg');
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   color: $primaryColorLight;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 .container {
   position: relative;
@@ -58,20 +55,20 @@ header {
   }
 
   .textColor {
-  color: $accessoryColor;
+    color: $accessoryColor;
   }
 
- .material-symbols-outlined {
+  .material-symbols-outlined {
     position: relative;
     top: 0.3rem;
     color: $accessoryColor;
     transition: transform 500ms;
-    transition-timing-function: cubic-bezier(.75, -3, .25, 4);
-    cursor:default;
+    transition-timing-function: cubic-bezier(0.75, -3, 0.25, 4);
+    cursor: default;
 
     &:hover {
       transform: scale(1.1);
-      transition: .4s ease-in;
+      transition: 0.4s ease-in;
       color: $accessoryColor2;
     }
   }
@@ -87,21 +84,20 @@ header {
 }
 
 .about {
-  border: 2px solid $primaryColorDark; 
+  border: 2px solid $primaryColorDark;
   position: relative;
   display: flex;
 }
 
-  .image {
+.image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50%;
-  width: 250px;
+  margin-top: 30%;
+  width: 400px;
   border-radius: 50%;
   //right: 2rem;
   top: 8rem;
   box-shadow: 1px 1px 16px $tertiaryColorDark;
-  }
-
+}
 </style>

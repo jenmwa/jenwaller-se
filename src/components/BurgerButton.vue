@@ -18,6 +18,7 @@
      },
      close(e) {
       if (!this.$el.contains(e.target)) {
+        console.log(e.target)
         this.isOpen = false;
       }
     }

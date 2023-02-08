@@ -1,6 +1,6 @@
 <template>
   <section class="spikes"></section>
-  <section>
+  <section id="tech">
     <div>
       <h3>Skills</h3>
       <ul>

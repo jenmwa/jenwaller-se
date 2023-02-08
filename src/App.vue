@@ -33,7 +33,7 @@ import WildSection from './components/WildSection.vue';
 <style scoped lang="scss">
 
 .main {
-  max-width: 650px;
+  max-width: 100%;
   /*border: 2px solid black;*/
 }
 

@@ -14,8 +14,8 @@ export default {
   },
   methods: {
     toggleMenu() {
-      console.log('clickclick');
       this.showMenu = !this.showMenu;
+      console.log('click');
     },
     hideMenuOnClickOutside(event) {
       if (this.showMenu && !event.target.closest('.navbar')) {
@@ -35,7 +35,7 @@ export default {
 <template>
   <div class="navbar">
     <p>jenwaller.se</p>
-    <BurgerButton @click="toggleMenu"/>
+    <BurgerButton :show-menu="showMenu" @click="toggleMenu"/>
     <transition name="slide-fade">
       <MainMenu class="mainmenu" v-if="showMenu" @click="toggleMenu"/>
     </transition>
@@ -45,6 +45,9 @@ export default {
 
 <style scoped lang="scss">
 .navbar {
+  position: fixed;
+  width: 100%;
+
   height: 50px;
   background-color: black;
   color: $accessoryColor;
@@ -52,12 +55,13 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding-left: 2rem;
-  max-width: 620px;
+
 
   p {
     transition: transform 500ms;
     transition-timing-function: cubic-bezier(.75, -3, .25, 4);
     cursor:default;
+    z-index: 10;
 
     &:hover {
       transform: scale(1.1);

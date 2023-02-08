@@ -23,6 +23,11 @@
 </template>
 
 <style lang="scss">
+
+h4 {
+  font-family: $secondaryFont;
+  color: $tertiaryColorLight;
+}
 .card {
   max-width: 100%;
   padding: 2rem;
@@ -30,6 +35,7 @@
   background-color: black;
   border-radius: 0px 50px;
   box-shadow: -2px 1px 8px 1px lightgrey; 
+  color: $tertiaryColorLight;
 }
 
 .portfolio-card__image {

@@ -3,9 +3,10 @@ import CardElement from './CardElement.vue';
 </script>
 
 <template>
-    <div>
-      <h3>Portfolio</h3>
-      <!-- projectsection<br><br>
+  <section id="portfolio">
+    <h3>Portfolio</h3>
+      <div class="project-section">
+    <!-- projectsection<br><br>
       Todo<br> [javascript]<br>
       munkshoppen [grupparb. js]<br>
       ketchup<br> [grupparb. Vue+ts]<br>
@@ -17,38 +18,41 @@ import CardElement from './CardElement.vue';
       Monroe Stainless [web, wordpress]<br>
       stronger you [graphic]<br> -->
 
+      <CardElement class="card-element" />
+      <CardElement class="card-element" />
+    </div>
+  </section>
+</template>
 
-    <CardElement class="card-element"/>
-    <CardElement class="card-element"/>
+<style scoped lang="scss">
+div {
+  background-image: url('/parallaxBackground.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: $primaryColorLight;
 
-  </div>
-  </template>
-  
-  <style scoped lang="scss">
-  
-  div {
-    background-image: url('/parallaxBackground.jpg');
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-color: black;
-    padding: 2rem;
-    color: $primaryColorLight;
+  h3 {
+    margin-left: 2rem;
+    padding: 4rem 0 2rem 0;
+  }
 
-    h3 {
-    padding: 2rem 0;
-    }
+  .card-element {
+    margin: 2rem 0;
+    transition: 0.1s ease-out;
+    cursor: default;
 
-    .card-element {
-      margin: 2rem 0;
-      transition: .1s ease-out;
-      cursor:default;
-
-      &:hover {
-        scale: 1.05;
-        transition: .4s ease-in;
-        border: $accessoryColor2;
-      }
+    &:hover {
+      scale: 1.05;
+      transition: 0.4s ease-in;
+      border: $accessoryColor2;
     }
   }
-  
-  </style>
+  @media (width >= 640px) {
+    .project-section {
+      display: flex;
+    }
+  }
+
+}
+</style>
