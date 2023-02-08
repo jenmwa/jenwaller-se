@@ -34,7 +34,7 @@ export default {
 
 <template>
   <div class="navbar">
-    <p>jenwaller.se</p>
+    <p><a href="#index">jenny waller</a></p>
     <BurgerButton :show-menu="showMenu" @click="toggleMenu"/>
     <transition name="slide-fade">
       <MainMenu class="mainmenu" v-if="showMenu" @click="toggleMenu"/>
@@ -67,6 +67,10 @@ export default {
       transform: scale(1.1);
       transition: .4s ease-in;
       color: $accessoryColor2;
+    }
+
+    a {
+      text-decoration: none;
     }
   }
 }
