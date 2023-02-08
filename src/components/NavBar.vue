@@ -37,7 +37,7 @@ export default {
     <p>jenwaller.se</p>
     <BurgerButton @click="toggleMenu"/>
     <transition name="slide-fade">
-      <MainMenu class="mainmenu" v-if="showMenu" @click="hideMenu"/>
+      <MainMenu class="mainmenu" v-if="showMenu" @click="toggleMenu"/>
     </transition>
   </div>
  

@@ -1,6 +1,6 @@
 <template>
   <nav class="base">
-    <ul>
+    <ul @click="emitCloseEvent">
       <li><a href="#about">About</a></li>
       <li><a href="#about">Tech</a></li>
       <li><a href="#about">Portfolio</a></li>
@@ -11,9 +11,13 @@
 </template>
 
 <script>
-  export default {
-    props: ['isOpen'],
-  };
+export default {
+  methods: {
+    emitCloseEvent() {
+      this.$emit('close');
+    }
+  }
+};
 </script>
 
 <style scoped lang="scss">
