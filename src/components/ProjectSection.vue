@@ -36,11 +36,6 @@ import CardElement from './CardElement.vue';
 
     h3 {
     padding: 2rem 0;
-    color: $tertiaryColorLight;
-    margin-top: -1rem;
-    font-size: 3rem;
-    font-family: $secondaryFont;
-    text-shadow: 1px 1px 1px $tertiaryColorDark;
     }
 
     .card-element {

@@ -63,11 +63,4 @@ section {
   }
 }
 
-h3 {
-  color: $tertiaryColorLight;
-  margin-top: -1rem;
-  font-size: 3rem;
-  font-family: $secondaryFont;
-  text-shadow: 1px 1px 1px $tertiaryColorDark;
-}
 </style>

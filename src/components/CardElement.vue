@@ -90,10 +90,6 @@
   transition: 0.3s;
 }
 
-.portfolio-card__link:hover {
-  color: black;
-}
-
 .tech-stach {
   width: 100%;
   display: flex;

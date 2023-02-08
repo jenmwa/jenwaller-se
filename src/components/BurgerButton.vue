@@ -5,10 +5,22 @@
       isOpen: false      
     }
   },
+  created() {
+    window.addEventListener("click", this.close);
+  },
+
+  beforeDestroy() {
+    window.removeEventListener("click", this.close);
+  },
   methods: {
     toggle() {
       this.isOpen = !this.isOpen;
-     }
+     },
+     close(e) {
+      if (!this.$el.contains(e.target)) {
+        this.isOpen = false;
+      }
+    }
   }
 }
 </script>

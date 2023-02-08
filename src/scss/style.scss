@@ -28,10 +28,34 @@ button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #f9f9f9;
-  cursor: pointer;
-  transition: border-color 0.25s;
+  text-transform: uppercase;
+  //margin: 1rem 0;
+  display: block;
+  background-color: $accessoryColor;
+  transition: transform 500ms;
+  transition-timing-function: cubic-bezier(.75, -3, .25, 4);
+
+  &:hover {
+    background-color: $accessoryColor2;
+    transform: scale(1.1);
+    transition: .4s ease-in;
+    color: $primaryColorLight;
+  }
+}
+
+h3 {
+  color: $tertiaryColorLight;
+  margin-top: -1rem;
+  font-size: 3rem;
+  font-family: $secondaryFont;
+  text-shadow: 1px 1px 1px $tertiaryColorDark;
+}
+
+a {
+  color: $accessoryColor;
+  text-underline-offset: 0.4rem;
+
+  &:hover {
+    color: $accessoryColor2;
+  }
 }

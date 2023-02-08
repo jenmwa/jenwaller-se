@@ -42,6 +42,8 @@
 .spikes {
   position: relative;
   background: $secondaryColorDark;
+  transform: skewY(0deg);
+  transform-origin: top right;
 }
 
 .spikes::after {
@@ -62,19 +64,12 @@
     background-color: rgb(15, 15, 15);
     color: $secondaryColorLight;
 
-
-
     div {
       padding: 2rem;
     }
 
     h3 {
     padding: 4rem 0 0 0;
-    color: $tertiaryColorLight;
-    margin-top: -1rem;
-    font-size: 3rem;
-    font-family: $secondaryFont;
-    text-shadow: 1px 1px 1px $tertiaryColorDark;
     }
 
     ul {
@@ -84,21 +79,4 @@
     }
   }
   
-  button {
-    text-transform: uppercase;
-    margin: 1rem 0;
-    display: block;
-    background-color: $accessoryColor;
-    transition: transform 500ms;
-    transition-timing-function: cubic-bezier(.75, -3, .25, 4);
-
-    &:hover {
-      background-color: $accessoryColor2;
-      transform: scale(1.1);
-      transition: .4s ease-in;
-      color: $primaryColorLight;
-    }
-  }
-
-
   </style>

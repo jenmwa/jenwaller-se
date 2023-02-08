@@ -9,15 +9,16 @@
     <p class="about-me-text">I’m a Front-End Developer Student at Medieinstitutet in Stockholm, Sweden and I really enjoy playing around with colors, fonts, images, taking photos, being creative, and make websites come to life with both design and functionality.</p>
     <p class="about-me-text">Right now I’m looking for LIA for the fall <span class="color-text">2023!</span><br>
       I’m looking for a company where I will be a part of a team and where I could continue grow in my role as a Front-End developer.</p>
+      <p>Want to talk?<br> Let’s connect!</p>
+        <div class="icon-container">
+        <img class="icons" src="/linkedin-fill-svgrepo-com.svg">
+        <img class="icons" src="/github-svgrepo-com.svg">
+        <img class="icons" src="/email-svgrepo-com.svg">
 
-    <p class="about-me-text">So who am i?</p>
-    <p class="about-me-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere veritatis vitae nostrum veniam accusamus voluptatibus ipsam dolor odio eos? Pariatur omnis enim cumque cupiditate, aut provident autem at totam dolores!</p>
+    <!-- <p class="about-me-text">So who am i?</p>
+    <p class="about-me-text">I always want to learn and develop, got an eye for details and I am a problem solver.</p>
+    <p class="about-me-text">In my spare time, I really enjoy spending time in the forest for daily hikes, going to concerts (at least once a month, that's not to much is it?) and be amongs friends and family, preferable over some good food and drinks.</p> -->
 
-    <p>Want to talk?<br> Let’s connect!</p>
-<div class="icon-container">
-<img class="icons" src="/linkedin-fill-svgrepo-com.svg">
-<img class="icons" src="/github-svgrepo-com.svg">
-<img class="icons" src="/email-svgrepo-com.svg">
 </div>
     <span class="material-symbols-outlined rocket">
 rocket_launch

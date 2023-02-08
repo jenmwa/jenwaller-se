@@ -2,9 +2,9 @@
   <nav class="base">
     <ul>
       <li><a href="#about">About</a></li>
-      <li>Tech</li>
-      <li>project</li>
-      <li>contact</li>
+      <li><a href="#about">Tech</a></li>
+      <li><a href="#about">Portfolio</a></li>
+      <li><a href="#about">Contact</a></li>
       <li><span class="material-symbols-outlined">light_mode</span></li>
     </ul>
   </nav>  
@@ -31,12 +31,9 @@
 
   li {
   list-style: none;
+  line-height: 3rem;
   }
 
-  a {
-    color: $accessoryColor;
-    text-underline-offset: 0.4rem;
-  }
 }
 
 </style>

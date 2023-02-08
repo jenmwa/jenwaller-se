@@ -16,7 +16,18 @@ export default {
     toggleMenu() {
       console.log('clickclick');
       this.showMenu = !this.showMenu;
+    },
+    hideMenuOnClickOutside(event) {
+      if (this.showMenu && !event.target.closest('.navbar')) {
+        this.showMenu = false;
+      }
     }
+  },
+  mounted() {
+    window.addEventListener('click', this.hideMenuOnClickOutside);
+  },
+  beforeDestroy() {
+    window.removeEventListener('click', this.hideMenuOnClickOutside);
   }
 }
 </script>
@@ -26,7 +37,7 @@ export default {
     <p>jenwaller.se</p>
     <BurgerButton @click="toggleMenu"/>
     <transition name="slide-fade">
-      <MainMenu class="mainmenu" v-if="showMenu"/>
+      <MainMenu class="mainmenu" v-if="showMenu" @click="hideMenu"/>
     </transition>
   </div>
  
