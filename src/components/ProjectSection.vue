@@ -3,7 +3,7 @@ import CardElement from './CardElement.vue';
 </script>
 
 <template>
-  <section id="portfolio">
+  <section class="portfolio" id="portfolio">
     <h3>Portfolio</h3>
       <div class="project-section">
     <!-- projectsection<br><br>
@@ -25,12 +25,18 @@ import CardElement from './CardElement.vue';
 </template>
 
 <style scoped lang="scss">
-div {
+.portfolio {
   background-image: url('/parallaxBackground.jpg');
   background-size: contain;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+
   background-color: black;
   color: $primaryColorLight;
+
+}
+div {
+  
 
   h3 {
     margin-left: 2rem;
