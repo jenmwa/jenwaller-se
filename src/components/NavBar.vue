@@ -15,7 +15,7 @@ export default {
   methods: {
     toggleMenu() {
       this.showMenu = !this.showMenu;
-      console.log(showMenu)
+      console.log('click');
     },
     hideMenuOnClickOutside(event) {
       if (this.showMenu && !event.target.closest('.navbar')) {
@@ -36,11 +36,11 @@ export default {
   <div class="navbar">
     <p><a href="#index">jenny waller</a></p>
     <BurgerButton :show-menu="showMenu" @click="toggleMenu"/>
-
     <transition name="slide-fade">
       <MainMenu class="mainmenu" v-if="showMenu" @click="toggleMenu"/>
     </transition>
   </div>
+ 
 </template>
 
 <style scoped lang="scss">
