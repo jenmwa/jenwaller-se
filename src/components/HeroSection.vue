@@ -94,7 +94,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30%;
-  width: 400px;
+  width: 360px;
   border-radius: 50%;
   //right: 2rem;
   top: 8rem;

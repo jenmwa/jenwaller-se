@@ -36,7 +36,6 @@ import CardElement from './CardElement.vue';
 
 }
 div {
-  
 
   h3 {
     margin-left: 2rem;

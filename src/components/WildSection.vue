@@ -34,7 +34,7 @@
   section {
     background-color:black;
     padding: 4rem 2rem;
-    color: $primaryColorLight;
+    color: $secondaryColorLight;
   }
   
   div.words {
