@@ -5,26 +5,24 @@
       isOpen: false      
     }
   },
-  // created() {
-  //   window.addEventListener("click", this.close);
-  // },
-  // beforeDestroy() {
-  //   window.removeEventListener("click", this.close);
-  // },
+  created() {
+    window.addEventListener("click", this.close);
+  },
+  beforeDestroy() {
+    window.removeEventListener("click", this.close);
+  },
   methods: {
     toggle() {
       this.isOpen = !this.isOpen;
       console.log(isOpen)
      },
-  }
      
-  //    close(e) {
-  //     if (!this.$el.contains(e.target)) {
-  //       console.log(e.target)
-  //       this.isOpen = false;
-  //     }
-  //   }
-  // }
+     close(e) {
+      if (!this.$el.contains(e.target)) {
+        this.isOpen = false;
+      }
+    }
+  }
 }
 //     export default {
 // props: ['showMenu'],
@@ -50,8 +48,8 @@
 
 <template>
   <div id="burger"
-  :class="{ 'active' : isOpen }">
-  <!-- @click.prevent="toggle"> -->
+  :class="{ 'active' : isOpen }"
+  @click.prevent="toggle">
     <button type="button" class="burger-button" title="Menu">
       <span class="burger-bar burger-bar--1"></span>
       <span class="burger-bar burger-bar--2"></span>
