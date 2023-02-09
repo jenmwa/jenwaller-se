@@ -19,7 +19,7 @@ import WildSection from './components/WildSection.vue';
         <AboutMe/>
         <!--<ParallaxHero />-->
         <TechSection/>
-        <ProjectSection/>
+        <ProjectSection />
         <WildSection/>
         <ContactSection/>
       </div>

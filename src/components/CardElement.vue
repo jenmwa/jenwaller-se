@@ -1,21 +1,28 @@
-<script setup>
+<script>
+export default {
+  name: 'CardElement',
+  props: ['cardData'],
+  data() {
+    return {}
+  }
+}
 </script>
 
 <template>
   <article>
   <div class="card">
-    <img class="card-img-top portfolio-card__image" src="/parallaxBackground.jpg" alt="Card image cap">
+    <img :src="cardData.image.img" :alt="cardData.image.alt" class="card-img-top portfolio-card__image">
       <div class="card-body">
-        <h6 class="card-subtitle portfolio-card__category">Website</h6>
-        <h4 class="card-title mb-2 portfolio-card__title">Project name</h4>
-        <p class="card-text portfolio-card__text">Some words about the project,like an small description and maybe some background info.</p>
+        <h6 v-html="cardData.category" class="card-subtitle portfolio-card__category"></h6>
+        <h4 v-html="cardData.project" class="card-title mb-2 portfolio-card__title"></h4>
+        <p v-html="cardData.description" class="card-text portfolio-card__text"></p>
         <div class="tech-stach">
           <span class="portfolio-card__tech portfolio-card__tech__javascript">JAVASCRIPT</span>
           <span class="portfolio-card__tech portfolio-card__tech__vue">VUE</span>
           <span class="portfolio-card__tech portfolio-card__tech__html">HTML</span>
           <span class="portfolio-card__tech portfolio-card__tech__css">(s)css</span>
         </div>
-        <a href="#" class="card-link portfolio-card__link">Link to Github</a>
+        <a class="card-link portfolio-card__link">Link to Github</a>
           <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
       </div>
   </div>

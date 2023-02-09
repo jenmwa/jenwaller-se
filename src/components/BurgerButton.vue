@@ -14,17 +14,16 @@
   methods: {
     toggle() {
       this.isOpen = !this.isOpen;
-      console.log(isOpen)
+      
      },
-  }
      
-  //    close(e) {
-  //     if (!this.$el.contains(e.target)) {
-  //       console.log(e.target)
-  //       this.isOpen = false;
-  //     }
-  //   }
-  // }
+     close(e) {
+      if (!this.$el.contains(e.target)) {
+        console.log(e.target)
+        this.isOpen = false;
+      }
+    }
+  }
 }
 //     export default {
 // props: ['showMenu'],
@@ -45,7 +44,6 @@
 //      }
 //   }
 // }
-
 </script>
 
 <template>

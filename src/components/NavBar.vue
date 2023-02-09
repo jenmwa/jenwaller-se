@@ -1,7 +1,6 @@
 <script>
 import BurgerButton from './BurgerButton.vue';
 import MainMenu from './MainMenu.vue';
-
 export default {
   components: {
     BurgerButton,
@@ -40,7 +39,6 @@ export default {
       <MainMenu class="mainmenu" v-if="showMenu" @click="toggleMenu"/>
     </transition>
   </div>
- 
 </template>
 
 <style scoped lang="scss">

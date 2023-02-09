@@ -1,5 +1,6 @@
 <script setup>
 import CardElement from './CardElement.vue';
+import portfolioItems from './PortfolioArray';
 </script>
 
 <template>
@@ -18,8 +19,8 @@ import CardElement from './CardElement.vue';
       Monroe Stainless [web, wordpress]<br>
       stronger you [graphic]<br> -->
 
-      <CardElement class="card-element" />
-      <CardElement class="card-element" />
+      <CardElement v-for="(portfolioItem, index) in portfolioItems"  :card-data="portfolioItem" :key="index" class="card-element"/>
+     
     </div>
   </section>
 </template>
