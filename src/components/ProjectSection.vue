@@ -55,10 +55,31 @@ div {
     }
   }
   @media (width >= 640px) {
-    .project-section {
       display: flex;
+      flex-wrap: wrap;
+      
+    .card-element {
+      width: 50%;
+    }
+    }
+  
+}
+
+  @media (width >= 1024px) {
+
+    .project-section {
+    .card-element {
+      width: 33.33%;
     }
   }
 
+  @media (width >= 1201px) {
+
+.project-section {
+.card-element {
+  width: 25%;
+}
+}
+}
 }
 </style>

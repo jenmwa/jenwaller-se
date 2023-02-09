@@ -32,7 +32,7 @@ let portfolioItems = [
                 alt: 'Two persons cheers with 2 cans of SLEEQ hard seltzer',
             },
         category: 'graphic profile',
-        project: 'SLEEQ graphics',
+        project: 'SLEEQ',
         description: 'Some words about the project,like an small description and maybe some background info.',
         tech: 'Adobe',
         github: 'https://www.sleeq.se'
@@ -45,7 +45,7 @@ let portfolioItems = [
                 alt: 'magic',
             },
         category: 'website',
-        project: 'portfolio HTML CSS',
+        project: 'portfolio Html Css',
         description: 'Some words about the project,like an small description and maybe some background info.',
         tech: 'VUE',
         github: 'https://www.jenwaller.se'
