@@ -80,6 +80,7 @@ a {
 }
 
 .portfolio-card__tech {
+  border-radius: 8px;
   color: $tertiaryColorLight;
   text-transform: uppercase;
   padding: 6px;

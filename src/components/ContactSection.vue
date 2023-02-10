@@ -17,7 +17,7 @@
     <br /><br />
     <p class="textColor">
       <span class="material-symbols-outlined">location_on</span>
-      <a href="https://www.google.se/maps/place/Karlstad/@59.3929235,13.2433407,10z/data=!3m1!4b1!4m5!3m4!1s0x465cb3d8e8ebe6f5:0xb8159334bc4aadd!8m2!3d59.4021806!4d13.5114978" target="_blank">Karlstad</a>
+      <p class="textColor">Karlstad</p>
     </p>
   </section>
 </template>
@@ -29,11 +29,6 @@ section {
   color: $tertiaryColorLight;
   padding: 4rem 2rem;
   text-align: center;
-
-  a {
-    display: block;
-    margin-bottom: 1rem;
-  }
 
   .icons {
     margin: 1rem 0.5rem;
@@ -54,6 +49,7 @@ section {
   }
 
   .material-symbols-outlined {
+    font-size: 2rem;
     position: relative;
     top: 0.3rem;
     color: $accessoryColor;

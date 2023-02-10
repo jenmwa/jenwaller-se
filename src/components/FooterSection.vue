@@ -16,6 +16,7 @@
     }
 
     a {
+      display: inline;
       color: $primaryColorDark;
 
       &:hover {

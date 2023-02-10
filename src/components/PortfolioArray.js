@@ -26,7 +26,7 @@ let portfolioItems = [
         frame: 'Vue',
         lang: 'typescript',
         scss: 'scss',
-        extra: 'localstorage',
+        extra: 'figma',
         website: 'https://jenmwa.github.io/todo-list/',
         github: 'https://github.com/jenmwa/todo-list',
 
