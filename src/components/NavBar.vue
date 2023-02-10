@@ -1,9 +1,9 @@
 <template>
   <div class="navbar">
     <p><a href="#index">jenny waller</a></p>
-    <BurgerButton :is-Open="showMenu" @click="toggleMenu" @toggle="toggle"/>
+    <BurgerButton @click="toggle" :isOpen="showMenu" />
     <transition name="slide-fade">
-      <MainMenu class="mainmenu" v-if="showMenu" @click="toggleMenu"/>
+      <MainMenu class="mainmenu" v-if="showMenu" @click="toggle" />
     </transition>
   </div>
 </template>
@@ -14,7 +14,7 @@ import MainMenu from './MainMenu.vue';
 export default {
   components: {
     BurgerButton,
-    MainMenu
+    MainMenu,
   },
   data() {
     return {
@@ -22,24 +22,23 @@ export default {
     };
   },
   methods: {
-    toggleMenu() {
+    toggle() {
       this.showMenu = !this.showMenu;
-      console.log('click');
     },
     hideMenuOnClickOutside(event) {
-       if (!this.showMenu) return;
+      if (!this.showMenu) return;
       if (!event.target.closest('.navbar')) {
         this.showMenu = false;
       }
-    }
+    },
   },
   mounted() {
     window.addEventListener('click', this.hideMenuOnClickOutside);
   },
   beforeDestroy() {
     window.removeEventListener('click', this.hideMenuOnClickOutside);
-  }
-}
+  },
+};
 </script>
 
 <style scoped lang="scss">
@@ -55,16 +54,15 @@ export default {
   align-items: center;
   padding-left: 2rem;
 
-
   p {
     transition: transform 500ms;
-    transition-timing-function: cubic-bezier(.75, -3, .25, 4);
-    cursor:default;
+    transition-timing-function: cubic-bezier(0.75, -3, 0.25, 4);
+    cursor: default;
     z-index: 10;
 
     &:hover {
       transform: scale(1.1);
-      transition: .4s ease-in;
+      transition: 0.4s ease-in;
       color: $accessoryColor2;
     }
 
@@ -90,5 +88,4 @@ export default {
   transform: translateY(-50px);
   opacity: 0;
 }
-
 </style>

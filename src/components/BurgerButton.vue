@@ -1,7 +1,5 @@
 <template>
-  <div id="burger"
-  :class="{ 'active' : isOpen }"
-   @click.prevent="onToggle">
+  <div id="burger" :class="{ active: isOpen }" @click.prevent="onToggle">
     <button type="button" class="burger-button" title="Menu">
       <span class="burger-bar burger-bar--1"></span>
       <span class="burger-bar burger-bar--2"></span>
@@ -10,25 +8,25 @@
   </div>
 </template>
 
-<script>
- export default {
-    props: {
-      isOpen: Boolean
-    },
-    methods: {
-      onToggle() {
-        this.$emit('toggle');
-      }
-    }
-  };
+<script lang="js">
+export default {
+   props: {
+     isOpen: Boolean
+   },
+   methods: {
+     onToggle() {
+       this.$emit('toggle');
+     }
+   }
+ };
 </script>
 
 <style scoped lang="scss">
-
 button {
   cursor: pointer;
 
-  &:active, &:focus {
+  &:active,
+  &:focus {
     outline: 0;
   }
 }
@@ -56,10 +54,11 @@ button {
   height: 2px;
   width: auto;
   margin-top: -1px;
-  transition: transform .6s cubic-bezier(.165,.84,.44,1),opacity .3s cubic-bezier(.165,.84,.44,1),background-color .6s cubic-bezier(.165,.84,.44,1);
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
+    background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 
   &:hover {
-   background-color: $accessoryColor2;
+    background-color: $accessoryColor2;
   }
 }
 
@@ -70,7 +69,7 @@ button {
 
 .burger-bar--2 {
   transform-origin: 100% 50%;
-  transform: scaleX(.8);
+  transform: scaleX(0.8);
 }
 
 .burger-button:hover .burger-bar--2 {
@@ -85,11 +84,11 @@ button {
   transform: translateY(6px);
 }
 #burger.active .burger-button {
-    transform: rotate(-180deg);
+  transform: rotate(-180deg);
 }
 
 #burger.active .burger-bar--1 {
-  transform: rotate(45deg)
+  transform: rotate(45deg);
 }
 
 #burger.active .burger-bar--2 {
@@ -97,7 +96,6 @@ button {
 }
 
 #burger.active .burger-bar--3 {
-  transform: rotate(-45deg)
+  transform: rotate(-45deg);
 }
-
 </style>
