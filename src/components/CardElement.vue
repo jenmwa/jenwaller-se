@@ -7,19 +7,20 @@
         <h4 v-html="cardData.project" class="card-title mb-2 portfolio-card__title"></h4>
         <p v-html="cardData.description" class="card-text portfolio-card__text"></p>
         <div class="tech-stach">
-          <span class="portfolio-card__tech portfolio-card__tech__javascript">JAVASCRIPT</span>
-          <span class="portfolio-card__tech portfolio-card__tech__vue">VUE</span>
-          <span class="portfolio-card__tech portfolio-card__tech__html">HTML</span>
-          <span class="portfolio-card__tech portfolio-card__tech__css">(s)css</span>
+          <span v-html="cardData.frame" class="portfolio-card__tech portfolio-card__tech__framework"></span>
+          <span v-html="cardData.lang" class="portfolio-card__tech portfolio-card__tech__lang"></span>
+          <span v-html="cardData.scss" class="portfolio-card__tech portfolio-card__tech__css"></span>
+          <span v-html="cardData.extra" class="portfolio-card__tech portfolio-card__tech__extra"></span>
         </div>
-        <a class="card-link portfolio-card__link">Link to Github</a>
+        <a :href="cardData.website" target="_blank" class="card-link portfolio-card__link">website</a>
+        <a :href="cardData.github" class="card-link portfolio-card__link">Link to Github</a>
           <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
       </div>
   </div>
 </article>
 </template>
 
-<script>
+<script lang="js">
 export default {
   name: 'CardElement',
   props: ['cardData'],
@@ -35,6 +36,12 @@ h4 {
   font-family: $secondaryFont;
   color: $tertiaryColorLight;
 }
+
+a {
+  display: block;
+  margin-bottom: 1rem;
+}
+
 .card {
   max-width: 100%;
   padding: 2rem;
@@ -76,10 +83,14 @@ h4 {
   color: $tertiaryColorLight;
   text-transform: uppercase;
   padding: 6px;
-  margin: 0 1rem 1rem 0;
+  margin: 0 0.75rem 1rem 0;
+
+  &:empty {
+    display:none;
+  }
 }
 
-.portfolio-card__tech__html {
+.portfolio-card__tech__extra {
   background-color: $primaryColorDark;
 }
 
@@ -87,11 +98,11 @@ h4 {
   background-color: #143353;
 }
 
-.portfolio-card__tech__javascript {
+.portfolio-card__tech__framework {
   background-color: $tertiaryColorDark;
 }
 
-.portfolio-card__tech__vue {
+.portfolio-card__tech__lang {
   background-color: $secondaryColorDark;
 }
 

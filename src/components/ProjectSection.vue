@@ -20,7 +20,7 @@
   </section>
 </template>
 
-<script>
+<script setup>
 import CardElement from './CardElement.vue';
 import portfolioItems from './PortfolioArray';
 </script>

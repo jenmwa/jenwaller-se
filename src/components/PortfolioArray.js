@@ -1,6 +1,5 @@
 let portfolioItems = [
     {
-        id: 1,
         image: {
                 img:'./parallaxBackground.jpg',
                 alt: 'space Invadors',
@@ -8,12 +7,47 @@ let portfolioItems = [
         category: 'App',
         project: 'Todo App',
         description: 'Some words about the project,like an small description and maybe some background info.',
-        tech: 'Javascript',
-        github: 'https://www.sleeq.se'
+        frame: '',
+        lang: 'javascript',
+        scss: 'scss',
+        extra: 'localstorage',
+        website: 'https://jenmwa.github.io/todo-list/',
+        github: 'https://github.com/jenmwa/todo-list',
 
     },
     {
-        id: 2,
+        image: {
+                img:'./parallaxBackground.jpg',
+                alt: 'space Invadors',
+            },
+        category: 'website',
+        project: 'team ketchupbloggen',
+        description: 'Some words about the project,like an small description and maybe some background info.',
+        frame: 'Vue',
+        lang: 'typescript',
+        scss: 'scss',
+        extra: 'localstorage',
+        website: 'https://jenmwa.github.io/todo-list/',
+        github: 'https://github.com/jenmwa/todo-list',
+
+    },
+    {
+        image: {
+                img:'./parallaxBackground.jpg',
+                alt: 'space Invadors',
+            },
+        category: 'website',
+        project: 'team Gottfrids Donuts',
+        description: 'Some words about the project,like an small description and maybe some background info.',
+        frame: '',
+        lang: 'javascript',
+        scss: 'scss',
+        extra: '',
+        website: 'https://jenmwa.github.io/GottfridsMunkar/',
+        github: 'https://github.com/jenmwa/GottfridsMunkar',
+
+    },
+    {
         image: {
                 img:'./parallaxBackground.jpg',
                 alt: 'space Invadors',
@@ -21,12 +55,14 @@ let portfolioItems = [
         category: 'website',
         project: 'To The Moon',
         description: 'Some words about the project,like an small description and maybe some background info.',
-        tech: 'HTML CSS',
-        github: 'https://www.sleeq.se'
-
+        frame: 'html',
+        lang: '',
+        scss: 'scss',
+        extra: 'adobe',
+        website: 'https://jenmwa.github.io/ToTheMoon/',
+        github: 'https://github.com/jenmwa/ToTheMoon',
     },
     {
-        id: 3,
         image: {
                 img:'./sleeq.jpg',
                 alt: 'Two persons cheers with 2 cans of SLEEQ hard seltzer',
@@ -34,12 +70,15 @@ let portfolioItems = [
         category: 'graphic profile',
         project: 'SLEEQ',
         description: 'Some words about the project,like an small description and maybe some background info.',
-        tech: 'Adobe',
-        github: 'https://www.sleeq.se'
+        frame: 'html',
+        lang: '',
+        scss: 'css',
+        extra: 'adobe',
+        website: 'https://sleeq.se',
+        github: '',
 
     },
     {
-        id: 4,
         image: {
                 img:'./parallaxBackground.jpg',
                 alt: 'magic',
@@ -47,12 +86,15 @@ let portfolioItems = [
         category: 'website',
         project: 'portfolio Html Css',
         description: 'Some words about the project,like an small description and maybe some background info.',
-        tech: 'VUE',
-        github: 'https://www.jenwaller.se'
+        frame: 'html',
+        lang: '',
+        scss: 'css',
+        extra: 'adobe',
+        website: 'https://jenwaller.se/portfolio/',
+        github: '',
 
     },
     {
-        id: 5,
         image: {
                 img:'./parallaxBackground.jpg',
                 alt: 'unbeleivable',
@@ -60,12 +102,15 @@ let portfolioItems = [
         category: 'website',
         project: 'Bravå Bemanning',
         description: 'Some words about the project,like an small description and maybe some background info.',
-        tech: 'HTML CSS',
-        github: 'https://www.jenwaller.se'
+        frame: 'html 5 template',
+        lang: '',
+        scss: 'css',
+        extra: 'adobe',
+        website: 'https://www.bravabemanning.se',
+        github: '',
 
     },
     {
-        id: 6,
         image: {
                 img:'./parallaxBackground.jpg',
                 alt: 'unbeleivable',
@@ -73,8 +118,12 @@ let portfolioItems = [
         category: 'website',
         project: 'Monroe Stainless',
         description: 'Some words about the project,like an small description and maybe some background info.',
-        tech: 'HTML CSS',
-        github: 'https://www.jenwaller.se'
+        frame: 'wordpress',
+        lang: '',
+        scss: '',
+        extra: 'adobe',
+        website: 'https://monroestainless.com',
+        github: '',
 
     },
 ];
