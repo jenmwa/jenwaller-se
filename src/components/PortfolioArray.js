@@ -21,7 +21,7 @@ let portfolioItems = [
                 alt: 'space Invadors',
             },
         category: 'website',
-        project: 'team ketchupbloggen',
+        project: 'ketchup blog',
         description: 'Some words about the project,like an small description and maybe some background info.',
         frame: 'Vue',
         lang: 'typescript',
@@ -37,7 +37,7 @@ let portfolioItems = [
                 alt: 'space Invadors',
             },
         category: 'website',
-        project: 'team Gottfrids Donuts',
+        project: 'Donut Shop',
         description: 'Some words about the project,like an small description and maybe some background info.',
         frame: '',
         lang: 'javascript',
@@ -84,7 +84,7 @@ let portfolioItems = [
                 alt: 'magic',
             },
         category: 'website',
-        project: 'portfolio Html Css',
+        project: 'portfolio',
         description: 'Some words about the project,like an small description and maybe some background info.',
         frame: 'html',
         lang: '',
@@ -105,7 +105,7 @@ let portfolioItems = [
         frame: 'html 5 template',
         lang: '',
         scss: 'css',
-        extra: 'adobe',
+        extra: '',
         website: 'https://www.bravabemanning.se',
         github: '',
 
@@ -127,4 +127,4 @@ let portfolioItems = [
 
     },
 ];
-export default portfolioItems; //recipies
+export default portfolioItems; 

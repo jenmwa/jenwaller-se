@@ -40,8 +40,6 @@
 <style scoped lang="scss">
 .about {
   padding: 2rem;
-
-  /*border: 2px solid $secondaryColorDark; */
   background: linear-gradient(black, $secondaryColorDark);
   color: $secondaryColorLight;
 

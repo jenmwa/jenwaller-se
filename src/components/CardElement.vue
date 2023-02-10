@@ -1,22 +1,34 @@
 <template>
   <article>
   <div class="card">
-    <img :src="cardData.image.img" :alt="cardData.image.alt" class="card-img-top portfolio-card__image">
-      <div class="card-body">
-        <h6 v-html="cardData.category" class="card-subtitle portfolio-card__category"></h6>
-        <h4 v-html="cardData.project" class="card-title mb-2 portfolio-card__title"></h4>
-        <p v-html="cardData.description" class="card-text portfolio-card__text"></p>
+
+      <img :src="cardData.image.img" :alt="cardData.image.alt" class="card-img-top portfolio-card__image">
+        <!-- width="236"
+        height="153"
+        loading="lazy"-->
+          
+      <h6 v-html="cardData.category" class="card-subtitle portfolio-card__category"></h6>
+      <h4 v-html="cardData.project" class="card-title mb-2 portfolio-card__title"></h4>
+      <p v-html="cardData.description" class="card-text portfolio-card__text"></p>
+      
+      
         <div class="tech-stach">
           <span v-html="cardData.frame" class="portfolio-card__tech portfolio-card__tech__framework"></span>
           <span v-html="cardData.lang" class="portfolio-card__tech portfolio-card__tech__lang"></span>
           <span v-html="cardData.scss" class="portfolio-card__tech portfolio-card__tech__css"></span>
           <span v-html="cardData.extra" class="portfolio-card__tech portfolio-card__tech__extra"></span>
         </div>
-        <a :href="cardData.website" target="_blank" class="card-link portfolio-card__link">website</a>
-        <a :href="cardData.github" class="card-link portfolio-card__link">Link to Github</a>
-          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+
+     
+
+      <div>
+          <a :href="cardData.website" target="_blank" class="card-link portfolio-card__link">website</a>
+          <a :href="cardData.github" class="card-link portfolio-card__link">Link to Github</a>
       </div>
-  </div>
+
+
+    </div>
+
 </article>
 </template>
 
@@ -43,9 +55,7 @@ a {
 }
 
 .card {
-  max-width: 100%;
   padding: 2rem;
-  margin: 2rem;
   background-color: black;
   border-radius: 0px 50px;
   box-shadow: -2px 1px 8px 1px lightgrey; 
@@ -54,7 +64,6 @@ a {
 
 .portfolio-card__image {
   max-width: 100%;
-
   text-align: center;
   border-radius: 0px 25px;
 }
@@ -120,4 +129,19 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
+
+@media (width >= 740px) {
+
+.card {
+  min-height: 550px;
+  }
+}
+
+@media (width >= 1024px) {
+
+  .card {
+    height: 600px
+  }
+}
+
 </style>

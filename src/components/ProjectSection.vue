@@ -35,10 +35,11 @@ import portfolioItems from './PortfolioArray';
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
   background-color: black;
   color: $primaryColorLight;
+  margin:0;
 }
+
 div {
   h3 {
     margin-left: 2rem;
@@ -46,7 +47,7 @@ div {
   }
 
   .card-element {
-    margin: 2rem 0;
+    margin: 2rem;
     transition: 0.1s ease-out;
     cursor: default;
 
@@ -56,18 +57,27 @@ div {
       border: $accessoryColor2;
     }
   }
-  @media (width >= 640px) {
+}
+
+@media (width >= 740px) {
+  .project-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
     .card-element {
-      width: 50%;
+      margin: 2rem;
+      width: 40%;
+
+      
     }
   }
 }
 
 @media (width >= 1024px) {
   .project-section {
+
+  
     .card-element {
       width: 33.33%;
     }
