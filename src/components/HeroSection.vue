@@ -1,17 +1,20 @@
 <template>
   <header>
-    <div class="img">
-      <img class="image" src="/profilbild_jw.jpg" />
+    <div class="hero-wrapper">
+      <div class="img">
+        <img class="image" src="/profilbild_jw.jpg" />
+      </div>
     </div>
-    <div class="container">
-      <p>Hi There</p>
-      <h1>I'm Jenny</h1>
-      <p><span class="soon">soon-to-be</span> Front End Developer</p>
-      <p class="textColor">
-        <span class="material-symbols-outlined">location_on</span>
-        Karlstad
-      </p>
-    </div>
+      <div class="container">
+        <p>Hi There</p>
+        <h1>I'm Jenny</h1>
+        <p><span class="soon">soon-to-be</span> Front End Developer</p>
+        <p class="textColor">
+          <span class="material-symbols-outlined">location_on</span>
+          Karlstad
+        </p>
+      </div>
+ 
   </header>
 </template>
 
@@ -32,8 +35,6 @@ header {
 }
 .container {
   position: relative;
-
-  /*border: 2px solid $primaryColorDark; */
   margin-left: 2rem;
 
   p {
@@ -100,4 +101,44 @@ header {
   top: 8rem;
   box-shadow: 1px 1px 16px $tertiaryColorDark;
 }
+
+@media (width >= 740px) {
+  .hero-wrapper {
+    display: flex-reverse;
+    flex-direction: row;
+
+    .image {
+      margin-top: 10%;
+      margin-left: auto;
+      width: 450px;
+      border-radius: 50%;
+    }
+  }
+}
+
+@media (width >= 1024px) {
+
+  header {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: contain;
+
+    .hero-wrapper {
+      margin-right: 10%;
+
+      .image {
+        width: 575px;
+        border-radius: 50%;
+        display: inline;
+      }
+    }
+    .container {
+      margin-left: 10%;
+      margin-top: 30%;
+    }
+  }
+}
+
 </style>
