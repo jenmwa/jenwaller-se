@@ -7,13 +7,13 @@
         Let’s connect!
       </p>
       <div class="icon-container">
-        <img class="icons" src="/linkedin-fill-svgrepo-com.svg" />
-        <img class="icons" src="/github-svgrepo-com.svg" />
+        <a href="https://www.linkedin.com/in/jenny-waller/" target="_blank"><img class="icons" src="/linkedin-fill-svgrepo-com.svg" /></a>
+        <a href="https://github.com/jenmwa" target="_blank"><img class="icons" src="/github-svgrepo-com.svg" /></a>
       </div>
     </div>
 
-    <a href="mailto:jenny.waller@medieinstitutet.se" target="_blank">jenny.waller@medieinstitutet.se</a>
-    <a href="tel:+46701507714">0701507714</a>
+    <a href="mailto:jenny.waller@medieinstitutet.se?subject=Let's Connect!" target="_blank" class="block">jenny.waller@medieinstitutet.se</a>
+    <a href="tel:+46701507714" target="_blank" class="block">0701507714</a>
     <br /><br />
     <p class="textColor">
       <span class="material-symbols-outlined">location_on</span>
@@ -30,6 +30,13 @@ section {
   padding: 4rem 2rem;
   text-align: center;
 
+  a {
+    display: inline;
+  }
+
+  .block {
+    display: block;
+  }
   .icons {
     margin: 1rem 0.5rem;
     width: 50px;
@@ -49,7 +56,7 @@ section {
   }
 
   .material-symbols-outlined {
-    font-size: 2rem;
+    font-size: 3rem;
     position: relative;
     top: 0.3rem;
     color: $accessoryColor;

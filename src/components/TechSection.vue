@@ -9,9 +9,10 @@
         <li>SASS</li>
         <li>JAVASCRIPT</li>
         <li>VUE</li>
-        <li>GITHUB</li>
         <li>VITE</li>
-        <li>ADOBE (psd, illustrator, inDesign, AfterEffects)</li>
+        <li>VS CODE</li>
+        <li>GITHUB</li>
+        <li>ADOBE (Photoshop, Illustrator, InDesign, AfterEffects)</li>
         <li>FIGMA</li>
       </ul>
       and to mention: Parcel, Nodejs, React, Jest, Axios, Cypress. 

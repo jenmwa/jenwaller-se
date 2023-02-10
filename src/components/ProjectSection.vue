@@ -1,8 +1,8 @@
 <template>
   <section class="portfolio" id="portfolio">
     <h3>Portfolio</h3>
-      <div class="project-section">
-    <!-- projectsection<br><br>
+    <div class="project-section">
+      <!-- projectsection<br><br>
       Todo<br> [javascript]<br>
       munkshoppen [grupparb. js]<br>
       ketchup<br> [grupparb. Vue+ts]<br>
@@ -14,8 +14,12 @@
       Monroe Stainless [web, wordpress]<br>
       stronger you [graphic]<br> -->
 
-      <CardElement v-for="(portfolioItem, index) in portfolioItems"  :card-data="portfolioItem" :key="index" class="card-element"/>
-     
+      <CardElement
+        v-for="(portfolioItem, index) in portfolioItems"
+        :card-data="portfolioItem"
+        :key="index"
+        class="card-element"
+      />
     </div>
   </section>
 </template>
@@ -34,10 +38,8 @@ import portfolioItems from './PortfolioArray';
 
   background-color: black;
   color: $primaryColorLight;
-
 }
 div {
-
   h3 {
     margin-left: 2rem;
     padding: 4rem 0 2rem 0;
@@ -55,31 +57,28 @@ div {
     }
   }
   @media (width >= 640px) {
-      display: flex;
-      flex-wrap: wrap;
-      
+    display: flex;
+    flex-wrap: wrap;
+
     .card-element {
       width: 50%;
     }
-    }
-  
+  }
 }
 
-  @media (width >= 1024px) {
-
-    .project-section {
+@media (width >= 1024px) {
+  .project-section {
     .card-element {
       width: 33.33%;
     }
   }
-
+}
   @media (width >= 1201px) {
+    .project-section {
+      .card-element {
+        width: 25%;
+      }
+    }
+  }
 
-.project-section {
-.card-element {
-  width: 25%;
-}
-}
-}
-}
 </style>

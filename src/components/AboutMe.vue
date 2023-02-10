@@ -1,33 +1,43 @@
 <template>
   <div class="about" id="about">
+    <p>Welcome<span class="material-symbols-outlined">waving_hand</span></p>
 
-   <p>Welcome<span class="material-symbols-outlined">waving_hand</span></p>
+    <h2>Don't be a stranger!</h2>
 
-   <h2>Don't be a stranger!</h2> 
-    
-    <p class="about-me-text">I'm Jenny, Nice to meet you! </p>
-    <p class="about-me-text">I’m a Front-End Developer Student at Medieinstitutet in Stockholm, Sweden and I really enjoy playing around with colors, fonts, images, taking photos, being creative, and make websites come to life with both design and functionality.</p>
-    <p class="about-me-text">Right now I’m looking for LIA for the fall <span class="color-text">2023!</span><br>
-      I’m looking for a company where I will be a part of a team and where I could continue grow in my role as a Front-End developer.</p>
-      <p>Want to talk?<br> Let’s connect!</p>
-        <div class="icon-container">
-        <img class="icons" src="/linkedin-fill-svgrepo-com.svg">
-        <img class="icons" src="/github-svgrepo-com.svg">
-        <img class="icons" src="/email-svgrepo-com.svg">
+    <p class="about-me-text">I'm Jenny, Nice to meet you!</p>
+    <p class="about-me-text">
+      I’m a Front-End Developer Student at Medieinstitutet in Stockholm, Sweden and I really enjoy playing around with
+      colors, fonts, images, taking photos, being creative, and make websites come to life with both design and
+      functionality.
+    </p>
+    <p class="about-me-text">
+      Right now I’m looking for LIA for the fall <span class="color-text">2023!</span><br />
+      I’m looking for a company where I will be a part of a team and where I could continue grow in my role as a
+      Front-End developer.
+    </p>
+    <p>
+      Want to talk?<br />
+      Let's connect!
+    </p>
+    <div class="icon-container">
+      <a href="https://www.linkedin.com/in/jenny-waller/" target="_blank"
+        ><img class="icons" src="/linkedin-fill-svgrepo-com.svg"
+      /></a>
+      <a href="https://github.com/jenmwa" target="_blank"><img class="icons" src="/github-svgrepo-com.svg" /></a>
+      <a href="mailto:jenny.waller@medieinstitutet.se?subject=Let's Connect!" target="_blank" class="block"
+        ><img class="icons" src="/email-svgrepo-com.svg"
+      /></a>
+    </div>
 
-    <!-- <p class="about-me-text">So who am i?</p>
+      <!-- <p class="about-me-text">So who am i?</p>
     <p class="about-me-text">I always want to learn and develop, got an eye for details and I am a problem solver.</p>
     <p class="about-me-text">In my spare time, I really enjoy spending time in the forest for daily hikes, going to concerts (at least once a month, that's not to much is it?) and be amongs friends and family, preferable over some good food and drinks.</p> -->
-
-</div>
-    <span class="material-symbols-outlined rocket">
-rocket_launch
-</span>
+  
+    <span class="material-symbols-outlined rocket"> rocket_launch </span>
   </div>
 </template>
 
 <style scoped lang="scss">
-
 .about {
   padding: 2rem;
 
@@ -36,11 +46,11 @@ rocket_launch
   color: $secondaryColorLight;
 
   p {
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
 
-h2 {
+  h2 {
     margin-top: -0.5rem;
     font-size: 3rem;
     font-family: $secondaryFont;
@@ -48,42 +58,47 @@ h2 {
     display: inline;
   }
 
+  a {
+    display: inline;
+  }
+
   span {
-  margin-left: 1rem;
-  font-size: 3rem;
+    margin-left: 1rem;
+    font-size: 3rem;
   }
   .about-me-text {
-  text-transform: none;
+    text-transform: none;
   }
 
   .color-text {
     font-size: 1.5rem;
     transition: transform 500ms;
-    transition-timing-function: cubic-bezier(.75, -3, .25, 4);
-    cursor:default;
+    transition-timing-function: cubic-bezier(0.75, -3, 0.25, 4);
+    cursor: default;
     margin-left: 0.2rem;
     color: $accessoryColor;
 
     &:hover {
       transform: scale(1.5);
-      transition: .4s ease-in;
+      transition: 0.4s ease-in;
       color: $accessoryColor2;
     }
   }
 
-  .icons, .material-symbols-outlined {
+  .icons,
+  .material-symbols-outlined {
     margin-top: 1rem;
     margin-right: 1rem;
     width: 35px;
     filter: invert(72%) sepia(82%) saturate(366%) hue-rotate(330deg) brightness(98%) contrast(92%);
     transition: transform 500ms;
-    transition-timing-function: cubic-bezier(.75, -3, .25, 4);
-    cursor:default;
+    transition-timing-function: cubic-bezier(0.75, -3, 0.25, 4);
+    cursor: default;
 
     &:hover {
       filter: invert(22%) sepia(95%) saturate(2648%) hue-rotate(307deg) brightness(83%) contrast(95%);
       transform: scale(1.1);
-      transition: .4s ease-in;
+      transition: 0.4s ease-in;
     }
   }
   .rocket {
@@ -91,5 +106,4 @@ h2 {
     margin-top: 2rem;
   }
 }
-
 </style>
