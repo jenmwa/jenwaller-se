@@ -1,55 +1,7 @@
-<script>
-  export default {
-    data() {
-    return {
-      isOpen: false      
-    }
-  },
-  created() {
-    window.addEventListener("click", this.close);
-  },
-  beforeDestroy() {
-    window.removeEventListener("click", this.close);
-  },
-  methods: {
-    toggle() {
-      this.isOpen = !this.isOpen;
-      
-     },
-     
-     close(e) {
-      if (!this.$el.contains(e.target)) {
-        console.log(e.target)
-        this.isOpen = false;
-      }
-    }
-  }
-}
-//     export default {
-// props: ['showMenu'],
-//   data() {
-//     return {
-//       isOpen: false      
-//     }
-//   },
-//   watch: {
-//     showMenu(value) {
-//       this.isOpen = value;
-//     }
-//   },
-//   methods: {
-//     toggle() {
-//       this.isOpen = !this.isOpen;
-//       this.$emit('click', this.isOpen);
-//      }
-//   }
-// }
-</script>
-
 <template>
   <div id="burger"
-  :class="{ 'active' : isOpen }">
-  <!-- @click.prevent="toggle"> -->
+  :class="{ 'active' : isOpen }"
+   @click.prevent="onToggle">
     <button type="button" class="burger-button" title="Menu">
       <span class="burger-bar burger-bar--1"></span>
       <span class="burger-bar burger-bar--2"></span>
@@ -57,6 +9,19 @@
     </button>
   </div>
 </template>
+
+<script>
+ export default {
+    props: {
+      isOpen: Boolean
+    },
+    methods: {
+      onToggle() {
+        this.$emit('toggle');
+      }
+    }
+  };
+</script>
 
 <style scoped lang="scss">
 

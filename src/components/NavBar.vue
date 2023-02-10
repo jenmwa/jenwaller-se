@@ -1,3 +1,13 @@
+<template>
+  <div class="navbar">
+    <p><a href="#index">jenny waller</a></p>
+    <BurgerButton :is-Open="showMenu" @click="toggleMenu" @toggle="toggle"/>
+    <transition name="slide-fade">
+      <MainMenu class="mainmenu" v-if="showMenu" @click="toggleMenu"/>
+    </transition>
+  </div>
+</template>
+
 <script>
 import BurgerButton from './BurgerButton.vue';
 import MainMenu from './MainMenu.vue';
@@ -17,7 +27,8 @@ export default {
       console.log('click');
     },
     hideMenuOnClickOutside(event) {
-      if (this.showMenu && !event.target.closest('.navbar')) {
+       if (!this.showMenu) return;
+      if (!event.target.closest('.navbar')) {
         this.showMenu = false;
       }
     }
@@ -30,16 +41,6 @@ export default {
   }
 }
 </script>
-
-<template>
-  <div class="navbar">
-    <p><a href="#index">jenny waller</a></p>
-    <BurgerButton :show-menu="showMenu" @click="toggleMenu"/>
-    <transition name="slide-fade">
-      <MainMenu class="mainmenu" v-if="showMenu" @click="toggleMenu"/>
-    </transition>
-  </div>
-</template>
 
 <style scoped lang="scss">
 .navbar {
