@@ -1,15 +1,3 @@
-<script setup>
-  import NavBar from './components/NavBar.vue';
-  import HeroSection from './components/HeroSection.vue';
-  import AboutMe from './components/AboutMe.vue';
-  /*import ParallaxHero from './components/ParallaxHero.vue';*/
-  import TechSection from './components/TechSection.vue';
-  import ProjectSection from './components/ProjectSection.vue';
-  import ContactSection from './components/ContactSection.vue';
-  import FooterSection from './components/FooterSection.vue';
-import WildSection from './components/WildSection.vue';
-</script>
-
 <template>
   <div class="main">
     <NavBar class="nav"/>
@@ -29,6 +17,18 @@ import WildSection from './components/WildSection.vue';
     </div>
 </div>
 </template>
+
+<script setup>
+  import NavBar from './components/NavBar.vue';
+  import HeroSection from './components/HeroSection.vue';
+  import AboutMe from './components/AboutMe.vue';
+  /*import ParallaxHero from './components/ParallaxHero.vue';*/
+  import TechSection from './components/TechSection.vue';
+  import ProjectSection from './components/ProjectSection.vue';
+  import ContactSection from './components/ContactSection.vue';
+  import FooterSection from './components/FooterSection.vue';
+import WildSection from './components/WildSection.vue';
+</script>
 
 <style scoped lang="scss">
 

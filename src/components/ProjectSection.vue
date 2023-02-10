@@ -1,8 +1,3 @@
-<script setup>
-import CardElement from './CardElement.vue';
-import portfolioItems from './PortfolioArray';
-</script>
-
 <template>
   <section class="portfolio" id="portfolio">
     <h3>Portfolio</h3>
@@ -24,6 +19,11 @@ import portfolioItems from './PortfolioArray';
     </div>
   </section>
 </template>
+
+<script>
+import CardElement from './CardElement.vue';
+import portfolioItems from './PortfolioArray';
+</script>
 
 <style scoped lang="scss">
 .portfolio {

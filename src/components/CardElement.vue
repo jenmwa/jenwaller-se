@@ -1,13 +1,3 @@
-<script>
-export default {
-  name: 'CardElement',
-  props: ['cardData'],
-  data() {
-    return {}
-  }
-}
-</script>
-
 <template>
   <article>
   <div class="card">
@@ -28,6 +18,16 @@ export default {
   </div>
 </article>
 </template>
+
+<script>
+export default {
+  name: 'CardElement',
+  props: ['cardData'],
+  data() {
+    return {}
+  }
+}
+</script>
 
 <style lang="scss">
 

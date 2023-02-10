@@ -29,7 +29,7 @@
   </section>
 </template>
   
-  <style scoped lang="scss">
+<style scoped lang="scss">
 
   section {
     background-color:black;

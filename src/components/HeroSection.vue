@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <header>
     <div class="img">
@@ -16,6 +14,8 @@
     </div>
   </header>
 </template>
+
+<script setup></script>
 
 <style scoped lang="scss">
 header {
