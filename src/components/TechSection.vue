@@ -3,7 +3,7 @@
   <section class="skills">
     <div>
       <h3>Skills</h3>
-      <p>What I know have worked with and really enjoy:</p>
+      <!-- <p>What I have worked with and really enjoy:</p> -->
       <div class="flex">
         <div>
           <ul>
@@ -15,15 +15,29 @@
             <li>VITE</li>
             <li>VS CODE</li>
             <li>GITHUB</li>
-            <li>ADOBE (Photoshop, Illustrator, InDesign, AfterEffects)</li>
+            <li>ADOBE<br>(Photoshop, Illustrator, InDesign, AfterEffects)</li>
             <li>FIGMA</li>
-            <li>REACT</li>
           </ul>
-          also: Parcel, Nodejs, Jest, Axios, Cypress. <br>    
-          COURSES I've had at the Front End Developer YH at MedieInstitutet before LIA:<br>
+          <p>also Parcel, Nodejs, Jest, Axios, Cypress.</p><br>
+          <p>Before my LIA starts I will also have had courses in:</p>
+          <ul>
+            <li>REACT</li>
+            <li>API developement & NODEjs</li>
+            <li>Agile project Managment</li>
+          </ul>
+          <!-- <p>COURSES I've had at the Front End Developer YH at MedieInstitutet before LIA:</p> -->
         </div>
         <div>
-          <ul>
+        <p>Want to know more about me?</p>
+        <p>Here you can download my CV, and if there's anything you want to ask me, Let's connect!</p>
+        <p>My email adress is jenny.waller@medieinstitutet.se</p>
+        <p>And you'll find me on LinkedIn here</p>
+        I'm
+        [img dummie of CV]<br>
+        <button type="button" >Download CV</button>
+        (or just open in a new window...)
+      </div>
+          <!-- <ul>
             <li>HTML/CSS</li>
             <li>JavaScript</li>
             <li>Graphical tools for interface design</li>
@@ -32,15 +46,8 @@
             <li>Agile project work</li>
             <li>API development</li>
             <li>UX/Usability</li>
-          </ul>
-        </div>
+          </ul> -->
       </div>
-    </div>
-    <div>
-      Want to know more?<br>
-      [img dummie of CV]<br>
-      <button type="button" >Download CV</button>
-      (or just open in a new window...)
     </div>
   </section>
 </template>
