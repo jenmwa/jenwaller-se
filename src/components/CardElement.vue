@@ -60,6 +60,7 @@ a {
   border-radius: 0px 50px;
   box-shadow: -2px 1px 8px 1px lightgrey; 
   color: $tertiaryColorLight;
+  max-width: 300px;
 }
 
 .portfolio-card__image {
@@ -133,14 +134,14 @@ a {
 @media (width >= 740px) {
 
 .card {
-  min-height: 550px;
+  height: 550px;
   }
 }
 
 @media (width >= 1024px) {
 
   .card {
-    height: 600px
+    height: 600px;
   }
 }
 

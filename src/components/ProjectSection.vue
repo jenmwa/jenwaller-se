@@ -63,7 +63,6 @@ div {
   .project-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 
     .card-element {
       margin: 2rem;
@@ -76,7 +75,7 @@ div {
 
 @media (width >= 1024px) {
   .project-section {
-
+    //justify-content: center;
   
     .card-element {
       width: 33.33%;

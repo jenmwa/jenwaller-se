@@ -126,5 +126,21 @@ let portfolioItems = [
         github: '',
 
     },
+    {
+        image: {
+                img:'./parallaxBackground.jpg',
+                alt: 'unbeleivable',
+            },
+        category: 'graphic profile',
+        project: 'Stronger you',
+        description: 'Some words about the project,like an small description and maybe some background info.',
+        frame: '',
+        lang: '',
+        scss: '',
+        extra: 'adobe',
+        website: 'https://monroestainless.com',
+        github: '',
+
+    },
 ];
 export default portfolioItems; 

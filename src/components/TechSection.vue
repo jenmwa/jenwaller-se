@@ -3,6 +3,7 @@
   <section id="skills">
     <div>
       <h3>Skills</h3>
+      <p>What I know have worked with and really enjoy:</p>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -15,7 +16,8 @@
         <li>ADOBE (Photoshop, Illustrator, InDesign, AfterEffects)</li>
         <li>FIGMA</li>
       </ul>
-      and to mention: Parcel, Nodejs, React, Jest, Axios, Cypress. 
+      and I have worked with: Parcel, Nodejs, Jest, Axios, Cypress. <br>
+      <p>before the start of the LIA i will also have worked with React.</p>
     </div>
     <div>  
       COURSES within the Front End Developer YH at MedieInstitutet:<br>
