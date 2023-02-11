@@ -32,7 +32,7 @@
         A onepager, classic portfolio design and graphics based on the hero image. And with a lot of CSS, small details
         and something I really enjoyed create!
         <br /><br />
-        KEEP IT SIMPLE is my motto and always live to learn!<br />
+        KEEP IT SIMPLE and always live to learn!<br />
       </p>
     </div>
     <div>
@@ -49,7 +49,7 @@
 
 <style scoped lang="scss">
 section {
-  background-color: black;
+  background-color: #0f0f0f;
   padding: 4rem 2rem;
   color: $secondaryColorLight;
 

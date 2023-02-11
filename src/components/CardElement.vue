@@ -56,7 +56,7 @@ a {
 
 .card {
   padding: 2rem;
-  background-color: black;
+  background-color: #0f0f0f;
   border-radius: 0px 50px;
   box-shadow: -2px 1px 8px 1px lightgrey; 
   color: $tertiaryColorLight;

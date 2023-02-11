@@ -3,6 +3,7 @@
   <section class="skills">
     <div>
       <h3>Skills</h3>
+      <p></p>
       <!-- <p>What I have worked with and really enjoy:</p> -->
       <div class="flex">
         <div>
@@ -28,10 +29,10 @@
           <!-- <p>COURSES I've had at the Front End Developer YH at MedieInstitutet before LIA:</p> -->
         </div>
         <div>
-        <p>Want to know more about me?</p>
-        <p>Here you can download my CV, and if there's anything you want to ask me, Let's connect!</p>
-        <p>My email adress is jenny.waller@medieinstitutet.se</p>
-        <p>And you'll find me on LinkedIn here</p>
+        <p>Anything else?</p>
+        <p>Download my CV, and if there's anything you want to ask me, (or just say HI 👋), send me a message!</p>
+        <p>My email adress is <a href="mailto:jenny.waller@medieinstitutet.se" target="_blank">jenny.waller@medieinstitutet.se</a></p>
+        <p>And you'll find me on <a href="https://www.linkedin.com/in/jenny-waller/" target="_blank">LinkedIn here</a></p>
         I'm
         [img dummie of CV]<br>
         <button type="button" >Download CV</button>
@@ -85,7 +86,7 @@
 }
 
   section {
-    background-color: rgb(15, 15, 15);
+    background-color: #0f0f0f;
     color: $secondaryColorLight;
 
     div {
@@ -94,6 +95,11 @@
 
     h3 {
     padding: 4rem 0 0 0;
+    margin: 0;
+    }
+
+    a{
+      display: inline;
     }
 
     ul {

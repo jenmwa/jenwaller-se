@@ -25,7 +25,7 @@
 <style scoped lang="scss">
 
 section {
-  background-color: black;
+  background-color: #0f0f0f;
   color: $tertiaryColorLight;
   padding: 4rem 2rem;
   text-align: center;

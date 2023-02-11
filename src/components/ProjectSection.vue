@@ -31,7 +31,8 @@ import portfolioItems from './PortfolioArray';
 
 <style scoped lang="scss">
 .portfolio {
-  background-image: url('/parallaxBackground.jpg');
+  background-image: url('/backgroundImgx740w.png');
+  width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -60,6 +61,10 @@ div {
 }
 
 @media (width >= 740px) {
+
+  .portfolio {
+    background-image: url('/backgroundImgx1024w.png');
+  }
   .project-section {
     display: flex;
     flex-wrap: wrap;
@@ -72,11 +77,21 @@ div {
 }
 
 @media (width >= 1024px) {
+
+  .portfolio {
+    background-image: url('/backgroundImgx1400w.png');
+    background-size: cover;
+  }
+
   .project-section {
     //justify-content: center;
   
     .card-element {
       width: 33.33%;
+
+      &:last-of-type {
+        margin-bottom: 4rem;
+      }
     }
   }
 }

@@ -35,7 +35,7 @@ button {
   background-color: $accessoryColor;
   transition: transform 500ms;
   transition-timing-function: cubic-bezier(.75, -3, .25, 4);
-  color:rgb(15, 15, 15);
+  color:#0f0f0f;
 
   &:hover {
     background-color: $accessoryColor2;

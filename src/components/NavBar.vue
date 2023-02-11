@@ -49,9 +49,9 @@ a {
 .navbar {
   position: fixed;
   width: 100%;
-
   height: 50px;
-  background-color: black;
+  background-color:#0f0f0f;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   color: $accessoryColor;
   display: flex;
   justify-content: space-between;
