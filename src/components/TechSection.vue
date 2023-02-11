@@ -1,36 +1,40 @@
 <template>
   <section class="spikes"></section>
-  <section id="skills">
+  <section class="skills">
     <div>
       <h3>Skills</h3>
       <p>What I know have worked with and really enjoy:</p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>SASS</li>
-        <li>JAVASCRIPT</li>
-        <li>VUE</li>
-        <li>VITE</li>
-        <li>VS CODE</li>
-        <li>GITHUB</li>
-        <li>ADOBE (Photoshop, Illustrator, InDesign, AfterEffects)</li>
-        <li>FIGMA</li>
-      </ul>
-      and I have worked with: Parcel, Nodejs, Jest, Axios, Cypress. <br>
-      <p>before the start of the LIA i will also have worked with React.</p>
-    </div>
-    <div>  
-      COURSES within the Front End Developer YH at MedieInstitutet:<br>
-      <ul>
-        <li>HTML/CSS</li>
-        <li>JavaScript</li>
-        <li>Graphical tools for interface design</li>
-        <li>Testing</li>
-        <li>Work methodology for developers</li>
-        <li>Agile project work</li>
-        <li>API development</li>
-        <li>UX/Usability</li>
-      </ul>
+      <div class="flex">
+        <div>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SASS</li>
+            <li>JAVASCRIPT</li>
+            <li>VUE</li>
+            <li>VITE</li>
+            <li>VS CODE</li>
+            <li>GITHUB</li>
+            <li>ADOBE (Photoshop, Illustrator, InDesign, AfterEffects)</li>
+            <li>FIGMA</li>
+            <li>REACT</li>
+          </ul>
+          also: Parcel, Nodejs, Jest, Axios, Cypress. <br>    
+          COURSES I've had at the Front End Developer YH at MedieInstitutet before LIA:<br>
+        </div>
+        <div>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Graphical tools for interface design</li>
+            <li>Testing</li>
+            <li>Work methodology for developers</li>
+            <li>Agile project work</li>
+            <li>API development</li>
+            <li>UX/Usability</li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div>
       Want to know more?<br>
@@ -42,6 +46,16 @@
 </template>
   
   <style scoped lang="scss">
+
+  div {
+    margin: 0;
+    padding: 0;
+  }
+
+  .flex {
+   padding: 0;
+   margin: 0;
+  }
 .spikes {
   position: relative;
   background: $secondaryColorDark;
@@ -78,6 +92,13 @@
     ul {
       margin: 0;
       padding: 0;
+
+    }
+  }
+
+  @media (width >= 740px) {
+    .flex {
+      display: flex;
 
     }
   }

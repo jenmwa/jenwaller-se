@@ -27,8 +27,8 @@ export default {};
   border-radius: 0 0 50% 50%;
   position: absolute;
   width: 100%;
-  top: 2.2rem;
-  right: 0;
+  top: 3rem;
+  right: 1rem; 
   text-align: center;
 
   li {
