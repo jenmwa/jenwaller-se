@@ -1,8 +1,24 @@
+// image: {
+//     img:'./parallaxBackground.jpg', SIZE: 350x200
+//     alt: 'space Invadors',
+// },
+// category: 'App',
+// project: 'Todo App',
+// description: 'Some words about the project,like an small description and maybe some background info.',
+// frame: '',
+// lang: 'javascript',
+// scss: 'scss',
+// extra: 'localstorage',
+// website: 'https://jenmwa.github.io/todo-list/',
+// github: 'https://github.com/jenmwa/todo-list',
+
+// },
+
 let portfolioItems = [
     {
         image: {
-                img:'./parallaxBackground.jpg',
-                alt: 'space Invadors',
+                img:'./todo.png',
+                alt: 'mockup of a javascript todo App by Jenny Waller',
             },
         category: 'App',
         project: 'Todo App',
@@ -17,12 +33,12 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./parallaxBackground.jpg',
+                img:'./ketchup.png',
                 alt: 'space Invadors',
             },
         category: 'website',
         project: 'ketchup blog',
-        description: 'Some words about the project,like an small description and maybe some background info.',
+        description: 'mockup of representation of mobile and desktop website Ketchup Bloggen',
         frame: 'Vue',
         lang: 'typescript',
         scss: 'scss',
@@ -33,8 +49,8 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./parallaxBackground.jpg',
-                alt: 'space Invadors',
+                img:'./donutshop.png',
+                alt: 'mockup of representation of mobile and desktop website Gottfrids fantastiska munkar',
             },
         category: 'website',
         project: 'Donut Shop',
@@ -49,8 +65,8 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./parallaxBackground.jpg',
-                alt: 'space Invadors',
+                img:'./tothemoon.png',
+                alt: 'mockup of representation of mobile and desktop website To The Moon',
             },
         category: 'website',
         project: 'To The Moon',
@@ -64,8 +80,8 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./sleeq.jpg',
-                alt: 'Two persons cheers with 2 cans of SLEEQ hard seltzer',
+                img:'./sleeq.webp',
+                alt: 'mockup of graphics for SLEEQ hard seltzer',
             },
         category: 'graphic profile',
         project: 'SLEEQ',
@@ -80,8 +96,8 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./parallaxBackground.jpg',
-                alt: 'magic',
+                img:'./portfolio.png',
+                alt: 'mockup of representation of mobile and desktop website To The Moon',
             },
         category: 'website',
         project: 'portfolio',
@@ -96,8 +112,8 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./parallaxBackground.jpg',
-                alt: 'unbeleivable',
+                img:'./bravabemanning.png',
+                alt: 'mockup of representation of mobile and desktop website Bravå bemanning',
             },
         category: 'website',
         project: 'Bravå Bemanning',
@@ -112,8 +128,8 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./parallaxBackground.jpg',
-                alt: 'unbeleivable',
+                img:'./monroestainless.png',
+                alt: 'mockup of representation of mobile and desktop website Monroe Stainless',
             },
         category: 'website',
         project: 'Monroe Stainless',
@@ -128,8 +144,8 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./parallaxBackground.jpg',
-                alt: 'unbeleivable',
+                img:'./strongeryou.png',
+                alt: 'mockup of graphics for Stronger You',
             },
         category: 'graphic profile',
         project: 'Stronger you',

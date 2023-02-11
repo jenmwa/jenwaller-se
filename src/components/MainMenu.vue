@@ -44,7 +44,7 @@ export default {};
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin: 3rem 0;
 
     img {
       width: 35px;

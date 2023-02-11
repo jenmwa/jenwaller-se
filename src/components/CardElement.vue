@@ -2,10 +2,10 @@
   <article>
   <div class="card">
 
-      <img :src="cardData.image.img" :alt="cardData.image.alt" class="card-img-top portfolio-card__image">
-        <!-- width="236"
+      <img :src="cardData.image.img" :alt="cardData.image.alt" class="card-img-top portfolio-card__image"
+        width="236"
         height="153"
-        loading="lazy"-->
+        loading="lazy">
           
       <h6 v-html="cardData.category" class="card-subtitle portfolio-card__category"></h6>
       <h4 v-html="cardData.project" class="card-title mb-2 portfolio-card__title"></h4>
@@ -64,9 +64,10 @@ a {
 }
 
 .portfolio-card__image {
-  max-width: 100%;
+  width: 100%;
   text-align: center;
   border-radius: 0px 25px;
+  object-fit: cover;
 }
 
 .portfolio-card__title {

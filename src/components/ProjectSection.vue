@@ -67,8 +67,6 @@ div {
     .card-element {
       margin: 2rem;
       width: 40%;
-
-      
     }
   }
 }

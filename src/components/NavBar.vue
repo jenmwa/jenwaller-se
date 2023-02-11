@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <p><a href="#index">jenny waller</a></p>
+    <a href="#index"><p>jenny waller</p></a>
     <BurgerButton @click="toggle" :isOpen="showMenu" />
     <transition name="slide-fade">
       <MainMenu class="mainmenu" v-if="showMenu" @click="toggle" />
@@ -42,6 +42,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+a {
+      text-decoration: none;
+    }
 .navbar {
   position: fixed;
   width: 100%;
@@ -59,6 +63,7 @@ export default {
     transition-timing-function: cubic-bezier(0.75, -3, 0.25, 4);
     cursor: default;
     z-index: 10;
+    margin-top: 1.5rem;
 
     &:hover {
       transform: scale(1.1);
@@ -66,9 +71,7 @@ export default {
       color: $accessoryColor2;
     }
 
-    a {
-      text-decoration: none;
-    }
+    
   }
 }
 

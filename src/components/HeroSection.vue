@@ -3,6 +3,7 @@
     <div class="hero-wrapper">
       <div class="img">
         <img class="image" src="/profilbild_jw.jpg" />
+        <!-- <img class="jenny-img" srcset="img/jenny_waller_base.webp 250w, img/jenny_waller_tablet.webp 375w, img/jenny_waller_desktop.webp 500w" sizes="(max-width:767px) 250px, (max-width:1365px) 375px, 500px" src="jenny_waller_desktop.webp" alt="person med mörkt hår som ler mot kameran" title="jenny_waller"></img>-->
       </div>
     </div>
       <div class="container">
