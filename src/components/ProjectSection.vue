@@ -31,7 +31,7 @@ import portfolioItems from './PortfolioArray';
 
 <style scoped lang="scss">
 .portfolio {
-  background-image: url('/backgroundImgx740w.png');
+  background-image: url('/src/assets/img/backgroundImgx740w.png');
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -63,7 +63,7 @@ div {
 @media (width >= 740px) {
 
   .portfolio {
-    background-image: url('/backgroundImgx1024w.png');
+    background-image: url('/src/assets/img/backgroundImgx1024w.png');
   }
   .project-section {
     display: flex;
@@ -79,7 +79,7 @@ div {
 @media (width >= 1024px) {
 
   .portfolio {
-    background-image: url('/backgroundImgx1400w.png');
+    background-image: url('/src/assets/img/backgroundImgx1400w.png');
     background-size: cover;
   }
 

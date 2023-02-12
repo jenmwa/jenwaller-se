@@ -7,8 +7,8 @@
         Let’s connect!
       </p>
       <div class="icon-container">
-        <a href="https://www.linkedin.com/in/jenny-waller/" target="_blank"><img class="icons" src="/linkedin-fill-svgrepo-com.svg" /></a>
-        <a href="https://github.com/jenmwa" target="_blank"><img class="icons" src="/github-svgrepo-com.svg" /></a>
+        <a href="https://www.linkedin.com/in/jenny-waller/" target="_blank"><img class="icons" src="/linkedin-fill-svgrepo-com.svg" alt="linkedIn symbol logo"/></a>
+        <a href="https://github.com/jenmwa" target="_blank"><img class="icons" src="/github-svgrepo-com.svg" alt="Github symbol logo"/></a>
       </div>
     </div>
 

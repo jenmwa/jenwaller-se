@@ -2,8 +2,11 @@
   <header>
     <div class="hero-wrapper">
       <div class="img">
-        <!-- <img class="image" src="/profilbild_jw.jpg" /> -->
-        <img class="image" srcset="/profilbild_jwx360w.png 360w, /profilbild_jwx450w.png 450w, /profilbild_jwx575w.png 575w" sizes="(max-width:740px) 375px, (max-width:1024px) 450px, 575px" src="/profilbild_jwx575w.png" alt="person med mörkt hår som ler mot kameran" title="jenny_waller"/>
+        <picture>
+          <source media="(min-width:1024px)" srcset="/src/assets/img/profilbild_jwx575w.png">
+          <source media="(min-width:740px)" srcset="/src/assets/img/profilbild_jwx450w.png">
+          <img class="image" src="/src/assets/img/profilbild_jwx360w.png" alt="person med uppsatt mörkt hår i en knut som ser snett in i kameran" loading="lazy" style="width:auto;">
+        </picture>
       </div>
     </div>
       <div class="container">
@@ -26,7 +29,7 @@ header {
   background-color: black;
   min-height: 70vh;
   width: 100%;
-  background-image: url('/backgroundImgx740w.png');
+  background-image: url('/src/assets/img/backgroundImgx740w.png');
   background-size: cover;
   background-repeat: no-repeat;
   color: $primaryColorLight;
@@ -106,7 +109,7 @@ header {
 @media (width >= 740px) {
 
   header {
-    background-image: url('/backgroundImgx1024w.png');
+    background-image: url('/src/assets/img/backgroundImgx1024w.png');
   }
   .hero-wrapper {
     display: flex-reverse;
@@ -124,7 +127,7 @@ header {
 @media (width >= 1024px) {
 
   header {
-    background-image: url('/backgroundImgx1400w.png');
+    background-image: url('/src/assets/img/backgroundImgx1400w.png');
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;

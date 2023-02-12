@@ -1,9 +1,5 @@
 <template>
   <section>
-    <div class="words">
-      <!-- <p class="meaning-of-life">Try and be nice to people, avoid eating fat, <br>read a good book every now and then,<br>get some walking in, <br>and try and live together in peace and harmony with people of all creeds and nations</p> -->
-      <!-- <p class="wisdom">and for everybody's sake, KEEP IT SIMPLE!</p> -->
-    </div>
     <div>
       <h3>About this site</h3>
       <p>
