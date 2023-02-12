@@ -8,9 +8,9 @@
     </ul>
     <div class="social-icons">
       <a href="https://www.linkedin.com/in/jenny-waller/" target="_blank"
-        ><img class="icons" src="/linkedin-fill-svgrepo-com.svg" alt="linkedIn symbol logo"
+        ><img class="icons" src="/linkedin-fill-svgrepo-com.svg" alt="linkedIn symbol logo" width="35" height="35"
       /></a>
-      <a href="https://github.com/jenmwa" target="_blank"><img class="icons" src="/github-svgrepo-com.svg" alt="Github symbol logo" /></a>
+      <a href="https://github.com/jenmwa" target="_blank"><img class="icons" src="/github-svgrepo-com.svg" alt="Github symbol logo" width="35" height="35" /></a>
     </div>
     <!--<span class="material-symbols-outlined">light_mode</span>-->
   </nav>

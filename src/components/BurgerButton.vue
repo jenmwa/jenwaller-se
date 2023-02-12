@@ -22,14 +22,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-button {
-  cursor: pointer;
 
-  &:active,
-  &:focus {
-    outline: 0;
-  }
-}
 #burger {
   margin-right: 4rem;
 }
@@ -45,6 +38,7 @@ button {
   pointer-events: all;
   transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+
 .burger-bar {
   background-color: $accessoryColor;
   position: absolute;

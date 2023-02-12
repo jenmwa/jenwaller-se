@@ -7,7 +7,7 @@
         height="153"
         loading="lazy">
           
-      <h6 v-html="cardData.category" class="card-subtitle portfolio-card__category"></h6>
+      <p v-html="cardData.category" class="card-subtitle portfolio-card__category"></p>
       <h4 v-html="cardData.project" class="card-title mb-2 portfolio-card__title"></h4>
       <p v-html="cardData.description" class="card-text portfolio-card__text"></p>
       
@@ -18,8 +18,6 @@
           <span v-html="cardData.scss" class="portfolio-card__tech portfolio-card__tech__css"></span>
           <span v-html="cardData.extra" class="portfolio-card__tech portfolio-card__tech__extra"></span>
         </div>
-
-     
 
       <div>
           <a :href="cardData.website" target="_blank" class="card-link portfolio-card__link">website</a>
@@ -83,7 +81,7 @@ a {
 }
 
 .portfolio-card__category {
-  color: $accessoryColor2;
+  color: $accessoryColor;
 }
 
 .portfolio-card__text {

@@ -31,14 +31,13 @@ import portfolioItems from './PortfolioArray';
 
 <style scoped lang="scss">
 .portfolio {
-  background-image: url('/src/assets/img/backgroundImgx740w.png');
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/src/assets/img/backgroundImgx1024w.webp');
   width: 100%;
-  background-size: contain;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-color: black;
   color: $primaryColorLight;
-  margin:0;
+  margin: 0;
 }
 
 div {
@@ -61,9 +60,12 @@ div {
 }
 
 @media (width >= 740px) {
-
   .portfolio {
-    background-image: url('/src/assets/img/backgroundImgx1024w.png');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('/src/assets/img/backgroundImgx740w.webp');
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
   .project-section {
     display: flex;
@@ -77,15 +79,15 @@ div {
 }
 
 @media (width >= 1024px) {
-
   .portfolio {
-    background-image: url('/src/assets/img/backgroundImgx1400w.png');
-    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('/src/assets/img/backgroundImgx1024w.webp');
+    background-size: contain;
   }
 
   .project-section {
     //justify-content: center;
-  
+
     .card-element {
       width: 33.33%;
 
@@ -95,12 +97,11 @@ div {
     }
   }
 }
-  @media (width >= 1201px) {
-    .project-section {
-      .card-element {
-        width: 25%;
-      }
+@media (width >= 1201px) {
+  .project-section {
+    .card-element {
+      width: 25%;
     }
   }
-
+}
 </style>

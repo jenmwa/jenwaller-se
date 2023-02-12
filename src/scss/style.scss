@@ -43,6 +43,10 @@ button {
     transition: .4s ease-in;
     color: $primaryColorLight;
   }
+
+  &:focus {
+    border: 2px solid whitesmoke;
+  }
 }
 
 h3 {

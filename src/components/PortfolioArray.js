@@ -1,4 +1,11 @@
-// image: {
+//import bild1 from 'assets/bilder/jag.jpg';
+// import bild2 from 'assets/bilder/jag2.jpg';
+// const array = [bild1, bild2]; 
+
+
+
+
+//image: {
 //     img:'./parallaxBackground.jpg', SIZE: 350x200
 //     alt: 'space Invadors',
 // },
