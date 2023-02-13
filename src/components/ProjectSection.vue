@@ -71,10 +71,17 @@ div {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url('/src/assets/img/backgroundImgx1024w.webp');
     background-size: contain;
+ 
   }
 
+  div {
+  h3 {
+    margin-left: 10%;
+
+  }
+  }
   .project-section {
-    //justify-content: center;
+    justify-content: center;
 
     .card-element {
       width: 33.33%;

@@ -33,7 +33,6 @@
     <p class="about-me-text">I always want to learn and develop, got an eye for details and I am a problem solver.</p>
     <p class="about-me-text">In my spare time, I really enjoy spending time in the forest for daily hikes, going to concerts (at least once a month, that's not to much is it?) and be amongs friends and family, preferable over some good food and drinks.</p> -->
   
-    <span class="material-symbols-outlined rocket"> rocket_launch </span>
   </div>
 </template>
 
@@ -99,9 +98,14 @@
       transition: 0.4s ease-in;
     }
   }
-  .rocket {
-    font-size: 4rem;
-    margin-top: 2rem;
+}
+@media (width >= 740px) {
+
+}
+
+@media (width >= 1024px) {
+  .about {
+    padding-left: 10%;
   }
 }
 </style>

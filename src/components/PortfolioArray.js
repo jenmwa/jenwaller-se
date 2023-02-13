@@ -24,7 +24,7 @@
 let portfolioItems = [
     {
         image: {
-                img:'./todo.png',
+                img:'/src/assets/img/todo.webp',
                 alt: 'mockup of a javascript todo App by Jenny Waller',
             },
         category: 'App',
@@ -40,7 +40,7 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./ketchup.png',
+                img:'/src/assets/img/ketchup.webp',
                 alt: 'mockup of representation of mobile and desktop website Ketchup Bloggen',
             },
         category: 'website',
@@ -56,7 +56,7 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./donutshop.png',
+                img:'/src/assets/img/gootfrids.webp',
                 alt: 'mockup of representation of mobile and desktop website Gottfrids fantastiska munkar',
             },
         category: 'website',
@@ -72,7 +72,7 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./tothemoon.png',
+                img:'/src/assets/img/tothemoon.webp',
                 alt: 'mockup of representation of mobile and desktop website To The Moon',
             },
         category: 'website',
@@ -87,10 +87,10 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./sleeq.webp',
+                img:'/src/assets/img/sleeq.webp',
                 alt: 'mockup of graphics for SLEEQ hard seltzer',
             },
-        category: 'graphic profile',
+        category: 'web & graphic profile',
         project: 'SLEEQ',
         description: 'Website based on a template with added HTML, CSS and JS, social media and graphic profile for startup company within the beverage section.',
         frame: 'html',
@@ -103,7 +103,7 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./portfolio.png',
+                img:'/src/assets/img/cv.webp',
                 alt: 'mockup of representation of mobile and desktop website To The Moon',
             },
         category: 'website',
@@ -119,7 +119,7 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./bravabemanning.png',
+                img:'/src/assets/img/brava.webp',
                 alt: 'mockup of representation of mobile and desktop website Bravå bemanning',
             },
         category: 'website',
@@ -135,7 +135,7 @@ let portfolioItems = [
     },
     {
         image: {
-                img:'./monroestainless.png',
+                img:'/src/assets/img/monroe.webp',
                 alt: 'mockup of representation of mobile and desktop website Monroe Stainless',
             },
         category: 'website',

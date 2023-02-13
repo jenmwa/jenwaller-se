@@ -39,6 +39,7 @@
       cardElement by xxx codepen<br />
       Fonts by xxx instagram<br />
       Css tricks by xxx instagram<br>
+      Cred laptop mockup <a href="https://www.vecteezy.com/free-vector/laptop-mockup">Laptop Mockup Vectors by Vecteezy</a><a href="https://www.vecteezy.com/free-vector/mobile-phone-mockup">Mobile Phone Mockup Vectors by Vecteezy</a>
     </div>
   </section>
 </template>
@@ -73,6 +74,16 @@ section {
     transform: scale(1.5);
     transition: 0.4s ease-in;
     color: $accessoryColor2;
+  }
+}
+
+@media (width >= 740px) {
+  
+}
+
+@media (width >= 1024px) {
+  section {
+  padding-left: 10%;
   }
 }
 </style>

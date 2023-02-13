@@ -57,6 +57,13 @@ h3 {
   text-shadow: 1px 1px 1px $tertiaryColorDark;
 }
 
+h4 {
+  font-size: 2rem;
+  font-family: $secondaryFont;
+  text-shadow: 1px 1px 1px $tertiaryColorDark;
+
+}
+
 a {
   color: $accessoryColor;
   text-underline-offset: 0.4rem;
