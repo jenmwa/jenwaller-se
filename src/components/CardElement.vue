@@ -1,7 +1,7 @@
 <template>
   <article>
   <div class="card">
-
+    <div>
       <img :src="cardData.image.img" :alt="cardData.image.alt" class="card-img-top portfolio-card__image"
         width="236"
         height="153"
@@ -18,12 +18,13 @@
           <span v-html="cardData.scss" class="portfolio-card__tech portfolio-card__tech__css"></span>
           <span v-html="cardData.extra" class="portfolio-card__tech portfolio-card__tech__extra"></span>
         </div>
-
+    </div>
+    <div>
       <div>
           <a :href="cardData.website" target="_blank" class="card-link portfolio-card__link">website</a>
           <a :href="cardData.github" target="_blank" class="card-link portfolio-card__link">Github repo</a>
       </div>
-
+    </div>
 
     </div>
 
@@ -59,6 +60,9 @@ a {
   box-shadow: -2px 1px 8px 1px lightgrey; 
   color: $tertiaryColorLight;
   max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .portfolio-card__image {
