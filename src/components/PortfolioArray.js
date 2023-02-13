@@ -149,21 +149,6 @@ let portfolioItems = [
         github: '',
 
     },
-    {
-        image: {
-                img:'./strongeryou.png',
-                alt: 'mockup of graphics for Stronger You',
-            },
-        category: 'graphic profile',
-        project: 'Stronger you',
-        description: 'Some words about the project,like an small description and maybe some background info.',
-        frame: '',
-        lang: '',
-        scss: '',
-        extra: 'adobe',
-        website: 'https://monroestainless.com',
-        github: '',
 
-    },
 ];
 export default portfolioItems; 
