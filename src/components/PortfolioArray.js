@@ -113,8 +113,8 @@ let portfolioItems = [
         lang: '',
         scss: 'css',
         extra: 'adobe',
-        website: 'https://jenwaller.se/portfolio/',
-        github: '',
+        website: 'https://jenmwa.github.io/cv-HTML-CSS/',
+        github: 'https://github.com/jenmwa/cv-HTML-CSS',
 
     },
     {
