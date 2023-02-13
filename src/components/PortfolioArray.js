@@ -98,7 +98,7 @@ let portfolioItems = [
         scss: 'css',
         extra: 'adobe',
         website: 'https://sleeq.se',
-        github: '',
+        github: 'https://github.com/jenmwa/SLEEQ',
 
     },
     {
@@ -130,7 +130,7 @@ let portfolioItems = [
         scss: 'css',
         extra: '',
         website: 'https://www.bravabemanning.se',
-        github: '',
+        github: 'https://github.com/jenmwa/brava-bemanning',
 
     },
     {
@@ -146,7 +146,7 @@ let portfolioItems = [
         scss: '',
         extra: 'adobe',
         website: 'https://monroestainless.com',
-        github: '',
+        github: 'https://github.com/jenmwa/monroe-stainless',
 
     },
 

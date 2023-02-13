@@ -30,11 +30,12 @@
         </div>
         <div>
         <p>Anything else?</p>
-        <p>Download my CV, and if there's anything you want to ask me, (or just say HI 👋), send me a message!</p>
+        <p>Download my CV, and if there's something you want to ask me, (or just say HI 👋), send me a message!</p>
         <p>My email adress is <a href="mailto:jenny.waller@medieinstitutet.se" target="_blank">jenny.waller@medieinstitutet.se</a></p>
         <p>And you'll find me on <a href="https://www.linkedin.com/in/jenny-waller/" target="_blank">LinkedIn here</a></p>
-        I'm
-        [img dummie of CV]<br>
+        <div class="img-container">
+
+        </div>
         <button type="button" >Download CV</button>
         (or just open in a new window...)
       </div>

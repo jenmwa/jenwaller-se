@@ -21,7 +21,7 @@
 
       <div>
           <a :href="cardData.website" target="_blank" class="card-link portfolio-card__link">website</a>
-          <a :href="cardData.github" target="_blank" class="card-link portfolio-card__link">Link to Github</a>
+          <a :href="cardData.github" target="_blank" class="card-link portfolio-card__link">Github repo</a>
       </div>
 
 
