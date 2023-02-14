@@ -1,5 +1,5 @@
 <template>
-  <section class="portfolio" id="portfolio" :style="{ backgroundImage: 'url(' + backgroundImage + ')' }">
+  <section class="portfolio" id="portfolio" :style="{ backgroundImage: 'linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' + backgroundImage + ')' }">
     <h3>Portfolio</h3>
     <div class="project-section">
       <CardElement
@@ -15,13 +15,14 @@
 <script setup>
 import CardElement from './CardElement.vue';
 import portfolioItems from './PortfolioArray';
-import backgroundImage from '/assets/img/backgroundImgx1024w.webp';
+import backgroundImage from '../assets/img/backgroundImgx1024w.webp';
 </script>
 
 <style scoped lang="scss">
-.portfolio {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/assets/img/backgroundImgx1024w.webp');
+
+section.portfolio[style*="backgroundImage"] {
+  // background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  //   url('/assets/img/backgroundImgx1024w.webp');
   width: 100%;
   background-repeat: no-repeat;
   background-color: black;

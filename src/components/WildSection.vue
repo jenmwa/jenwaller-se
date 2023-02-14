@@ -11,11 +11,12 @@
         framework, packages as <span class="color-text">EsLint</span> and <span class="color-text">prettier</span> for
         linting and formatting and <span class="color-text">Sass</span> as my stylesheet language.
       </p>
-      <p>
-        The design for this web is based on the hero background image by Greg Rakozy from
-        <a href="https://unsplash.com/photos/oMpAz-DN-9I" target="_blank">unsplash</a>, and with that I decided my base
-        with dark and light colors and my and two different accessory colors for details.
-      </p>
+      <!-- <p>
+        The design for this site is based on the hero background image by Greg Rakozy from
+        <a href="https://unsplash.com/photos/oMpAz-DN-9I" target="_blank">unsplash</a>, and with that I
+         decided my base
+        with dark and light colors and my and two different accessory colors for details. 
+      </p> -->
       <p>
         I do really enjoy working with details, old school CSS animations, and with VUE, new, but simple effective ways
         of getting a site come to life.
