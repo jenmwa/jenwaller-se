@@ -1,9 +1,9 @@
 <template>
-  <div id="burger" :class="{ active: isOpen }" @click.prevent="onToggle">
-    <button type="button" class="burger-button" title="Menu">
-      <span class="burger-bar burger-bar--1"></span>
-      <span class="burger-bar burger-bar--2"></span>
-      <span class="burger-bar burger-bar--3"></span>
+  <div class="burger" :class="{ active: isOpen }" @click.prevent="onToggle">
+    <button type="button" class="burger-btn" title="Menu">
+      <span class="burger-bar burger-bar-1"></span>
+      <span class="burger-bar burger-bar-2"></span>
+      <span class="burger-bar burger-bar-3"></span>
     </button>
   </div>
 </template>
@@ -23,10 +23,10 @@ export default {
 
 <style scoped lang="scss">
 
-#burger {
+.burger {
   margin-right: 4rem;
 }
-.burger-button {
+.burger-btn {
   position: relative;
   height: 35px;
   width: 37px;
@@ -56,40 +56,40 @@ export default {
   }
 }
 
-.burger-bar--1 {
+.burger-bar-1 {
   -webkit-transform: translateY(-6px);
   transform: translateY(-6px);
 }
 
-.burger-bar--2 {
+.burger-bar-2 {
   transform-origin: 100% 50%;
   transform: scaleX(0.8);
 }
 
-.burger-button:hover .burger-bar--2 {
+.burger-btn:hover .burger-bar-2 {
   transform: scaleX(1);
 }
 
-.no-touchevents .burger-bar--2:hover {
+.no-touchevents .burger-bar-2:hover {
   transform: scaleX(1);
 }
 
-.burger-bar--3 {
+.burger-bar-3 {
   transform: translateY(6px);
 }
-#burger.active .burger-button {
+.burger.active .burger-btn {
   transform: rotate(-180deg);
 }
 
-#burger.active .burger-bar--1 {
+.burger.active .burger-bar-1 {
   transform: rotate(45deg);
 }
 
-#burger.active .burger-bar--2 {
+.burger.active .burger-bar-2 {
   opacity: 0;
 }
 
-#burger.active .burger-bar--3 {
+.burger.active .burger-bar-3 {
   transform: rotate(-45deg);
 }
 </style>

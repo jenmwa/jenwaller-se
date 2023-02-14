@@ -25,11 +25,11 @@ let portfolioItems = [
     {
         image: {
                 img:'/src/assets/img/todo.webp',
-                alt: 'mockup of a javascript todo App by Jenny Waller',
+                alt: 'mockup of a javaScript todo App by Jenny Waller',
             },
         category: 'App',
         project: 'Todo App',
-        description: 'Javascript todolist in vanilla javascript for the course Javascript Grundkurs. Add todos, categorize them, sort them and mark them as done.',
+        description: 'JavaScript todolist in vanilla javaScript for the course JavaScript Grundkurs. Add todos, categorize them, sort them and mark them as done.',
         frame: '',
         lang: 'javascript',
         scss: 'scss',
@@ -111,7 +111,7 @@ let portfolioItems = [
         description: 'Personal CVsite in HTML & SASS for the course HTML/CSS. HTML structure, different elements, use of images, responsive and A11y principles.',
         frame: 'html',
         lang: '',
-        scss: 'css',
+        scss: 'scss',
         extra: 'adobe',
         website: 'https://jenmwa.github.io/cv-HTML-CSS/',
         github: 'https://github.com/jenmwa/cv-HTML-CSS',

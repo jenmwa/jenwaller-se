@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div>
+    <div class="upper-container">
       <h3>About this site</h3>
       <p>
         I wanted to try out <span class="color-text big">VUE</span> for myself after our team assignment in the course
@@ -18,28 +18,29 @@
       </p>
       <p>
         I do really enjoy working with details, old school CSS animations, and with VUE, new, but simple effective ways
-        of getting a site come to life. And since I really do enjoy small extras, I've used
+        of getting a site come to life.
+        <!-- And since I really do enjoy small extras, I've used
         <span class="color-text">GSAP</span> for some animations as well...
-        <span class="italic">(Who doesn't like easter eggs?)</span>
+        <span class="italic">(Who doesn't like easter eggs?)</span> -->
       </p>
 
       <p>
         And this is what came out.<br />
-        A onepager, classic portfolio design and graphics based on the hero image. And with a lot of CSS, small details
+        A onepager, classic portfolio design and the graphic element is based on the hero image. And with a lot of CSS, details
         and something I really enjoyed create!
         <br /><br />
         KEEP IT SIMPLE and always live to learn!<br />
       </p>
     </div>
-    <div>
-      Inspiration: <br />
-      Image by Greg Rakozy from Unsplash<br />
-      BurgerMenu by xxx codepen<br />
-      hero section by xxx<br />
-      cardElement by xxx codepen<br />
-      Fonts by xxx instagram<br />
-      Css tricks by xxx instagram<br>
-      Cred laptop mockup <a href="https://www.vecteezy.com/free-vector/laptop-mockup">Laptop Mockup Vectors by Vecteezy</a><a href="https://www.vecteezy.com/free-vector/mobile-phone-mockup">Mobile Phone Mockup Vectors by Vecteezy</a>
+    <div class="cred">
+      <h4>Inspiration:</h4>
+      Image by <a href="https://unsplash.com/photos/oMpAz-DN-9I" target="_blank">Greg Rakozy from Unsplash</a><br>
+      BurgerMenu by <a href="https://codepen.io/kkern/pen/OYERMy" target="_blank">Kevin Regenrek at Codepen</a><br>
+      Hero section by <a href="" target="http://vue.rainbowit.net/designer-portfolio">Rainbow-themes, TryDo</a><br>
+      CardElement by <a href="https://codepen.io/jacklegge/pen/EMdXQm" target="_blank">Jack Legge at Codepen</a><br>
+      Fonts Pairing by <a href="https://instagram.com/supercharge.design" target="_blank">supercharge.design at instagram</a><br>
+      Css tricks by <a href="</a>" target="_blank">baby_wolf_codes at Instagram</a><br>
+      Laptop & phone mockup by <a href="https://www.vecteezy.com/free-vector" target="_blank">vecteezy.com</a>
     </div>
   </section>
 </template>
@@ -49,6 +50,7 @@ section {
   background-color: #0f0f0f;
   padding: 4rem 2rem;
   color: $secondaryColorLight;
+
 
   a {
     display: inline;
@@ -77,13 +79,44 @@ section {
   }
 }
 
+.cred {
+  line-height: 2rem;
+}
+
 @media (width >= 740px) {
-  
+  section {
+    display: flex;
+    align-items: end;
+
+    .upper-container {
+      max-width: 50%;
+      margin-right: 2rem;
+    }
+
+    .upper-container > h3 {
+      width: 100%;
+    }
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      width: 50%;
+    }
+   
+  }
 }
 
 @media (width >= 1024px) {
   section {
   padding-left: 10%;
+
+  .upper-container {
+    max-width: 40%;
+      margin-right: 8rem;
+    }
+
   }
 }
 </style>
