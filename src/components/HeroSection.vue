@@ -3,9 +3,9 @@
     <div class="hero-wrapper">
       <div class="img">
         <picture>
-          <source media="(min-width:1024px)" srcset="/src/assets/img/profilbild_jwx575w.webp" width="575" height="575">
-          <source media="(min-width:740px)" srcset="/src/assets/img/profilbild_jwx450w.webp" width="450" height="450">
-          <img class="image" src="/src/assets/img/profilbild_jwx360w.webp" width="360" height="360" alt="person med uppsatt mörkt hår i en knut som ser snett in i kameran" loading="lazy" >
+          <source media="(min-width:1024px)" :srcset="jwImg575" width="575" height="575">
+          <source media="(min-width:740px)" :srcset="jwImg450" width="450" height="450">
+          <img class="image" :src="jwImg360" width="360" height="360" alt="person med uppsatt mörkt hår i en knut som ser snett in i kameran" loading="lazy" >
         </picture>
       </div>
     </div>
@@ -22,14 +22,18 @@
   </header>
 </template>
 
-<script setup></script>
+<script setup>
+  import jwImg360 from "/src/assets/img/profilbild_jwx360w.webp";
+  import jwImg450 from "/src/assets/img/profilbild_jwx450w.webp";
+  import jwImg575 from "/src/assets/img/profilbild_jwx575w.webp";
+</script>
 
 <style scoped lang="scss">
 header {
   background-color: black;
   min-height: 70vh;
   width: 100%;
-  background-image: url('/src/assets/img/backgroundImgx740w.webp');
+  background-image: url('~@/assets/img/backgroundImgx740w.webp');
   background-size: cover;
   background-repeat: no-repeat;
   color: $primaryColorLight;
@@ -109,7 +113,7 @@ header {
 @media (width >= 740px) {
 
   header {
-    background-image: url('/src/assets/img/backgroundImgx1024w.webp');
+    background-image: url('~@/assets/img/backgroundImgx1024w.webp');
   }
   .hero-wrapper {
     display: flex-reverse;
@@ -127,7 +131,7 @@ header {
 @media (width >= 1024px) {
 
   header {
-    background-image: url('/src/assets/img/backgroundImgx1400w.webp');
+    background-image: url('~@/assets/img/backgroundImgx1400w.webp');
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;

@@ -31,7 +31,7 @@
         <p>(opens in a new window)</p>
         <div class="img-container">
           <a href="/jenny-waller_cv-eng.pdf" target="_blank">
-            <img src="/jenny-waller-cv-lia-eng.jpg" width="200" height="300" />
+            <img :src="cvImage" width="200" height="300" loading="lazy" />
           </a>
           <span class="download-text">DOWNLOAD</span>
           <a href="/jenny-waller_cv-eng.pdf" download="”jenny-waller_cv-eng”">ENG</a>
@@ -54,6 +54,10 @@
     </div>
   </section>
 </template>
+
+<script setup>
+  import cvImage from '/jenny-waller-cv-lia-eng.jpg'; 
+</script>
 
 <style scoped lang="scss">
 .spikes {

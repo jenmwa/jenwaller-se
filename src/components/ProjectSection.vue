@@ -20,7 +20,7 @@ import portfolioItems from './PortfolioArray';
 <style scoped lang="scss">
 .portfolio {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/src/assets/img/backgroundImgx1024w.webp');
+    url('~@/assets/img/backgroundImgx1024w.webp');
   width: 100%;
   background-repeat: no-repeat;
   background-color: black;
@@ -50,7 +50,7 @@ div {
 @media (width >= 740px) {
   .portfolio {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('/src/assets/img/backgroundImgx740w.webp');
+      url('~@/assets/img/backgroundImgx740w.webp');
 
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -69,7 +69,7 @@ div {
 @media (width >= 1024px) {
   .portfolio {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('/src/assets/img/backgroundImgx1024w.webp');
+      url('~@/assets/img/backgroundImgx1024w.webp');
     background-size: contain;
  
   }
