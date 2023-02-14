@@ -1,5 +1,5 @@
 <template>
-  <section class="portfolio" id="portfolio" :style="{ backgroundImage: 'linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' + backgroundImage + ')' }">
+  <section class="portfolio" id="portfolio" :style="{ backgroundImage: 'linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' + backgroundImage + ')', width: '100%', backgroundRepeat: 'no-repeat' }">
     <h3>Portfolio</h3>
     <div class="project-section">
       <CardElement
@@ -20,14 +20,18 @@ import backgroundImage from '../assets/img/backgroundImgx1024w.webp';
 
 <style scoped lang="scss">
 
+.portfolio {
+  color: $primaryColorLight;
+  margin: 0;
+  background-color: #0f0f0f;
+}
+
 section.portfolio[style*="backgroundImage"] {
   // background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
   //   url('/assets/img/backgroundImgx1024w.webp');
   width: 100%;
   background-repeat: no-repeat;
-  background-color: black;
-  color: $primaryColorLight;
-  margin: 0;
+  background-color: #0f0f0f;
 }
 
 div {

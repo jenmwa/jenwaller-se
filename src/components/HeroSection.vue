@@ -1,5 +1,5 @@
 <template>
-  <header :style="{ backgroundImage: 'url(' + backgroundImage + ')' }">
+  <header :style="{ backgroundImage: 'url(' + backgroundImage + ')', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }">
     <div class="hero-wrapper">
       <div class="img">
         <picture>
@@ -106,16 +106,15 @@ header {
   margin-top: 30%;
   width:auto;
   border-radius: 50%;
-  //right: 2rem;
   top: 8rem;
   box-shadow: 1px 1px 16px $tertiaryColorDark;
 }
 
 @media (width >= 740px) {
 
-  header {
-    // background-image: url('/assets/img/backgroundImgx1024w.webp');
-  }
+  // header {
+  //   // background-image: url('/assets/img/backgroundImgx1024w.webp');
+  // }
   .hero-wrapper {
     display: flex-reverse;
     flex-direction: row;
@@ -123,7 +122,6 @@ header {
     .image {
       margin-top: 10%;
       margin-left: auto;
-    
       border-radius: 50%;
     }
   }
