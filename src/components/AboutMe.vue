@@ -1,32 +1,34 @@
 <template>
   <div class="about" id="about">
-    <p>Welcome<span class="material-symbols-outlined">waving_hand</span></p>
+    <div class="about-container">
+      <p>Welcome<span class="material-symbols-outlined">waving_hand</span></p>
 
-    <h2>Don't be a stranger!</h2>
+      <h2>Don't be a stranger!</h2>
 
-    <p class="about-me-text">I'm Jenny, Nice to meet you!</p>
-    <p class="about-me-text">
-      I’m a Front-End Developer Student at Medieinstitutet in Stockholm, Sweden and I really enjoy playing around with
-      colors, fonts, images, taking photos, being creative, and make websites come to life with both design and
-      functionality.
-    </p>
-    <p class="about-me-text">
-      Right now I’m looking for LIA for the fall <span class="color-text">2023!</span><br />
-      I’m looking for a company where I will be a part of a team and where I could continue grow in my role as a
-      Front-End developer.
-    </p>
-    <p>
-      Want to talk?<br />
-      Let's connect!
-    </p>
-    <div class="icon-container">
-      <a href="https://www.linkedin.com/in/jenny-waller/" target="_blank"
-        ><img class="icons" src="/linkedin-fill-svgrepo-com.svg" alt="linkedIn symbol logo" width="35" height="35"
-      /></a>
-      <a href="https://github.com/jenmwa" target="_blank"><img class="icons" src="/github-svgrepo-com.svg" alt="Github logo logo" width="35" height="35"/></a>
-      <a href="mailto:jenny.waller@medieinstitutet.se?subject=Let's Connect!" target="_blank" class="block"
-        ><img class="icons" src="/email-svgrepo-com.svg" alt="email symbol logo" width="35" height="35"
-      /></a>
+      <p class="about-me-text">I'm Jenny, Nice to meet you!</p>
+      <p class="about-me-text">
+        I’m a Front-End Developer Student at Medieinstitutet in Stockholm, Sweden and I really enjoy playing around with
+        colors, fonts, images, taking photos, being creative, and make websites come to life with both design and
+        functionality.
+      </p>
+      <p class="about-me-text">
+        Right now I’m looking for LIA for the fall <span class="color-text">2023!</span><br />
+        I’m looking for a company where I will be a part of a team and where I could continue grow in my role as a
+        Front-End developer.
+      </p>
+      <p>
+        Want to talk?<br />
+        Let's connect!
+      </p>
+      <div class="icon-container">
+        <a href="https://www.linkedin.com/in/jenny-waller/" target="_blank"
+          ><img class="icons" src="/linkedin-fill-svgrepo-com.svg" alt="linkedIn symbol logo" width="35" height="35"
+        /></a>
+        <a href="https://github.com/jenmwa" target="_blank"><img class="icons" src="/github-svgrepo-com.svg" alt="Github logo logo" width="35" height="35"/></a>
+        <a href="mailto:jenny.waller@medieinstitutet.se?subject=Let's Connect!" target="_blank" class="block"
+          ><img class="icons" src="/email-svgrepo-com.svg" alt="email symbol logo" width="35" height="35"
+        /></a>
+      </div>
     </div>
 
       <!-- <p class="about-me-text">So who am i?</p>
@@ -100,12 +102,18 @@
   }
 }
 @media (width >= 740px) {
+  .about-container {
+    max-width: 75%;
+  }
 
 }
 
 @media (width >= 1024px) {
   .about {
     padding-left: 10%;
+  }
+  .about-container {
+    max-width: 65%;
   }
 }
 </style>
