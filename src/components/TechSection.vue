@@ -30,8 +30,8 @@
         <h4>My CV</h4>
         <p>(opens in a new window)</p>
         <div class="img-container">
-          <a href="/jenny-waller_cv-eng.pdf" target="_blank">
-            <img :src="cvImage" width="200" height="300" loading="lazy" />
+          <a href="/jenny-waller_cv-eng.pdf" target="_blank" >
+            <img :src="cvImage" width="200" height="300" loading="lazy" alt="Jenny wallers CV i litet format" />
           </a>
           <span class="download-text">DOWNLOAD</span>
           <a href="/jenny-waller_cv-eng.pdf" download="”jenny-waller_cv-eng”">ENG</a>

@@ -37,7 +37,7 @@
       <h4>Inspiration:</h4>
       Image by <a href="https://unsplash.com/photos/oMpAz-DN-9I" target="_blank">Greg Rakozy from Unsplash</a><br>
       BurgerMenu by <a href="https://codepen.io/kkern/pen/OYERMy" target="_blank">Kevin Regenrek at Codepen</a><br>
-      Hero section by <a href="" target="http://vue.rainbowit.net/designer-portfolio">Rainbow-themes, TryDo</a><br>
+      Hero section by <a href="http://vue.rainbowit.net/designer-portfolio" target="_blank">Rainbow-themes, TryDo</a><br>
       CardElement by <a href="https://codepen.io/jacklegge/pen/EMdXQm" target="_blank">Jack Legge at Codepen</a><br>
       Fonts Pairing by <a href="https://instagram.com/supercharge.design" target="_blank">supercharge.design at instagram</a><br>
       Css tricks by <a href="</a>" target="_blank">baby_wolf_codes at Instagram</a><br>
