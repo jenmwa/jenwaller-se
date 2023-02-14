@@ -1,5 +1,5 @@
 <template>
-  <section class="portfolio" id="portfolio">
+  <section class="portfolio" id="portfolio" :style="{ backgroundImage: 'url(' + backgroundImage + ')' }">
     <h3>Portfolio</h3>
     <div class="project-section">
       <CardElement
@@ -15,12 +15,13 @@
 <script setup>
 import CardElement from './CardElement.vue';
 import portfolioItems from './PortfolioArray';
+import backgroundImage from '/assets/img/backgroundImgx1024w.webp';
 </script>
 
 <style scoped lang="scss">
 .portfolio {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('~@/assets/img/backgroundImgx1024w.webp');
+    url('/assets/img/backgroundImgx1024w.webp');
   width: 100%;
   background-repeat: no-repeat;
   background-color: black;
@@ -49,8 +50,8 @@ div {
 
 @media (width >= 740px) {
   .portfolio {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('~@/assets/img/backgroundImgx740w.webp');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+      // url('/assets/img/backgroundImgx740w.webp');
 
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -68,8 +69,8 @@ div {
 
 @media (width >= 1024px) {
   .portfolio {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('~@/assets/img/backgroundImgx1024w.webp');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+      // url('/assets/img/backgroundImgx1024w.webp');
     background-size: contain;
  
   }

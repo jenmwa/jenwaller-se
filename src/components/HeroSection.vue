@@ -33,7 +33,7 @@ header {
   background-color: black;
   min-height: 70vh;
   width: 100%;
-  background-image: url('~@/assets/img/backgroundImgx740w.webp');
+  background-image: url('/assets/img/backgroundImgx740w.webp');
   background-size: cover;
   background-repeat: no-repeat;
   color: $primaryColorLight;
@@ -113,7 +113,7 @@ header {
 @media (width >= 740px) {
 
   header {
-    background-image: url('~@/assets/img/backgroundImgx1024w.webp');
+    background-image: url('/assets/img/backgroundImgx1024w.webp');
   }
   .hero-wrapper {
     display: flex-reverse;
@@ -131,7 +131,7 @@ header {
 @media (width >= 1024px) {
 
   header {
-    background-image: url('~@/assets/img/backgroundImgx1400w.webp');
+    background-image: url('/assets/img/backgroundImgx1400w.webp');
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
