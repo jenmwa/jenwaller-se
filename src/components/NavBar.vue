@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<script>
+<script lang="js">
 import BurgerButton from './BurgerButton.vue';
 import MainMenu from './MainMenu.vue';
 export default {
