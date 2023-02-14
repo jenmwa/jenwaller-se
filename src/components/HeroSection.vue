@@ -5,7 +5,7 @@
         <picture>
           <source media="(min-width:1024px)" :srcset="jwImg575" width="575" height="575">
           <source media="(min-width:740px)" :srcset="jwImg450" width="450" height="450">
-          <img class="image" :src="jwImg360" width="360" height="360" alt="person med uppsatt mörkt hår i en knut som ser snett in i kameran" loading="lazy" >
+          <img class="image" :src="jwImg360" width="360" height="360" alt="person med uppsatt mörkt hår i en knut som ser snett in i kameran">
         </picture>
       </div>
     </div>
