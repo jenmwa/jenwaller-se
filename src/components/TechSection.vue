@@ -56,7 +56,7 @@
 </template>
 
 <script setup>
-  import cvImage from '/jenny-waller-cv-lia-eng.jpg'; 
+  import cvImage from '/jenny-waller-cv-lia-eng.webp'; 
 </script>
 
 <style scoped lang="scss">
