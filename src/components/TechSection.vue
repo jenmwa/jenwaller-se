@@ -30,12 +30,12 @@
         <h4>My CV</h4>
         <p>(opens in a new window)</p>
         <div class="img-container">
-          <a href="/jenny-waller_cv-eng.pdf" target="_blank" >
+          <a href="./jenny-waller_cv-eng.pdf" target="_blank" >
             <img :src="cvImage" width="200" height="300" loading="lazy" alt="Jenny wallers CV i litet format" />
           </a>
           <span class="download-text">DOWNLOAD</span>
-          <a href="/jenny-waller_cv-eng.pdf" download="”jenny-waller_cv-eng”">ENG</a>
-          <a href="/jenny-waller_cv-swe.pdf" download="jenny-waller-cv-swe">SWE</a>
+          <a href="./jenny-waller_cv-eng.pdf" download=”jenny-waller_cv-eng” rel="noopener noreferrer">ENG</a>
+          <a href="./jenny-waller_cv-sv.pdf" download="jenny-waller-cv-swe" rel="noopener noreferrer">SWE</a>
           <p class="end-words">If there's something you want to ask me,<br />(or just say HI 👋), send me a message!</p>
           <p>
             My email adress is
@@ -84,6 +84,7 @@
 
 .skills {
   padding-left: 2rem;
+  padding-right: 1rem;
   background-color: #0f0f0f;
   color: $secondaryColorLight;
 }

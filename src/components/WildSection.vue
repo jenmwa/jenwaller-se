@@ -40,8 +40,8 @@
       Hero section by <a href="http://vue.rainbowit.net/designer-portfolio" target="_blank">Rainbow-themes, TryDo</a><br>
       CardElement by <a href="https://codepen.io/jacklegge/pen/EMdXQm" target="_blank">Jack Legge at Codepen</a><br>
       Fonts Pairing by <a href="https://instagram.com/supercharge.design" target="_blank">supercharge.design at instagram</a><br>
-      Css tricks by <a href="</a>" target="_blank">baby_wolf_codes at Instagram</a><br>
-      Laptop & phone mockup by <a href="https://www.vecteezy.com/free-vector" target="_blank">vecteezy.com</a>
+      Css tricks by <a href="https://instagram.com/baby_wolf_codes" target="_blank">baby_wolf_codes at Instagram</a><br>
+      Laptop & phone mockup by <a href="https://www.vecteezy.com" target="_blank">vecteezy.com</a>
     </div>
   </section>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <a href="#index"><p>jenny waller</p></a>
+    <a href="/index.html"><p>jenny waller</p></a>
     <BurgerButton @click="toggle" :isOpen="showMenu" />
     <transition name="slide-fade">
       <MainMenu class="mainmenu" v-if="showMenu" @click="toggle" />
