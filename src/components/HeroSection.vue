@@ -3,7 +3,6 @@
     <div class="hero-wrapper">
       <div class="img">
         <picture>
-          <source media="(min-width:1200px)" :srcset="jwImg575" width="600" height="600">
           <source media="(min-width:1024px)" :srcset="jwImg575" width="500" height="500">
           <source media="(min-width:740px)" :srcset="jwImg450" width="450" height="450">
           <img class="image" :src="jwImg360" width="360" height="360" alt="person med uppsatt mörkt hår i en knut som ser snett in i kameran">
