@@ -85,7 +85,7 @@ let portfolioItems = [
     lang: '',
     scss: 'css',
     extra: 'adobe',
-    website: 'https://sleeq.se',
+    website: '',
     github: 'https://github.com/jenmwa/SLEEQ',
   },
   {
