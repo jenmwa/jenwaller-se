@@ -24,7 +24,7 @@
       </div>
       <div>
         <div>
-          <a :href="cardData.website" target="_blank" class="card-link portfolio-card_link">website</a>
+          <a v-if="cardData.website !== ''" :href="cardData.website" target="_blank" class="card-link portfolio-card_link">website</a>
           <a :href="cardData.github" target="_blank" class="card-link portfolio-card_link">Github repo</a>
         </div>
       </div>
