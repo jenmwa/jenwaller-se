@@ -5,37 +5,33 @@
     <div class="flex">
       <div class="children">
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>SASS</li>
-          <li>JAVASCRIPT</li>
+          <li>REACT</li>
           <li>VUE</li>
+          <li>JAVASCRIPT</li>
+          <li>TYPESCRIPT</li>
+          <li>NODEjs</li>
+          <li>NEXTjs</li>
+          <li>CSS/SASS</li>
+          <li>HTML</li>
           <li>VITE</li>
-          <li>VS CODE</li>
           <li>GITHUB</li>
           <li>ADOBE<br />(Photoshop, Illustrator, InDesign, AfterEffects)</li>
           <li>FIGMA</li>
         </ul>
-        <p>also Parcel, Nodejs, Jest, Axios, Cypress.</p>
+        <p>also Express, MongoDB, Axios, Nodejs, Jest, Cypress.</p>
         <br />
-        <p>Before my LIA starts I will also have had courses in:</p>
-        <ul>
-          <li>REACT</li>
-          <li>API developement & NODEjs</li>
-          <li>Agile project Managment</li>
-        </ul>
       </div>
 
       <div class="children section-middle">
         <h4>My CV</h4>
         <p>(opens in a new window)</p>
         <div class="img-container">
-          <a href="./jenny-waller_cv-eng.pdf" target="_blank" >
+          <a href="./CV-lia_2024-jenny-waller.pdf" target="_blank">
             <img :src="cvImage" width="200" height="300" loading="lazy" alt="Jenny wallers CV i litet format" />
           </a>
           <span class="download-text">DOWNLOAD</span>
-          <a href="./jenny-waller_cv-eng.pdf" download=”jenny-waller_cv-eng” rel="noopener noreferrer">ENG</a>
-          <a href="./jenny-waller_cv-sv.pdf" download="jenny-waller-cv-swe" rel="noopener noreferrer">SWE</a>
+          <!-- <a href="./jenny-waller_cv-eng.pdf" download="”jenny-waller_cv-eng”" rel="noopener noreferrer">ENG</a> -->
+          <a href="./CV-lia_2024-jenny-waller.pdf" download="jenny-waller-cv-swe" rel="noopener noreferrer">SWE</a>
           <p class="end-words">If there's something you want to ask me,<br />(or just say HI 👋), send me a message!</p>
           <p>
             My email adress is
@@ -56,7 +52,7 @@
 </template>
 
 <script setup>
-  import cvImage from '/jenny-waller-cv-lia-eng.webp'; 
+import cvImage from '/jenny-waller-cv-lia-eng.webp';
 </script>
 
 <style scoped lang="scss">
@@ -191,7 +187,6 @@ a {
 }
 
 @media (width >= 1200px) {
-
   .children {
     margin-right: 0;
     flex: 25%;
@@ -199,7 +194,6 @@ a {
     .section-middle {
       margin-left: 2rem;
     }
-
   }
   .rocket {
     display: block;

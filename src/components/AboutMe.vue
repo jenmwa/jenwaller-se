@@ -12,7 +12,7 @@
         functionality.
       </p>
       <p class="about-me-text">
-        Right now I’m looking for LIA for the fall <span class="color-text">2023!</span><br />
+        Right now I’m looking for LIA for the spring <span class="color-text">2024!</span><br />
         I’m looking for a company where I will be a part of a team and where I could continue grow in my role as a
         Front-End developer.
       </p>
@@ -24,17 +24,18 @@
         <a href="https://www.linkedin.com/in/jenny-waller/" target="_blank"
           ><img class="icons" src="/linkedin-fill-svgrepo-com.svg" alt="linkedIn symbol logo" width="35" height="35"
         /></a>
-        <a href="https://github.com/jenmwa" target="_blank"><img class="icons" src="/github-svgrepo-com.svg" alt="Github logo logo" width="35" height="35"/></a>
+        <a href="https://github.com/jenmwa" target="_blank"
+          ><img class="icons" src="/github-svgrepo-com.svg" alt="Github logo logo" width="35" height="35"
+        /></a>
         <a href="mailto:jenny.waller@medieinstitutet.se?subject=Let's Connect!" target="_blank" class="block"
           ><img class="icons" src="/email-svgrepo-com.svg" alt="email symbol logo" width="35" height="35"
         /></a>
       </div>
     </div>
 
-      <!-- <p class="about-me-text">So who am i?</p>
+    <!-- <p class="about-me-text">So who am i?</p>
     <p class="about-me-text">I always want to learn and develop, got an eye for details and I am a problem solver.</p>
     <p class="about-me-text">In my spare time, I really enjoy spending time in the forest for daily hikes, going to concerts (at least once a month, that's not to much is it?) and be amongs friends and family, preferable over some good food and drinks.</p> -->
-  
   </div>
 </template>
 
@@ -105,7 +106,6 @@
   .about-container {
     max-width: 75%;
   }
-
 }
 
 @media (width >= 1024px) {
