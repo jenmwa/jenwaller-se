@@ -1,8 +1,10 @@
-# Vue 3 + Vite
+# Portfolio för LIAsök hösten 2023.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+I wanted to try out VUE for myself after our team assignment in the course Graphical tools for interface design. Really enjoy working with components and this suits me very well!<br>
+Used VITE as my bundler, VUE with JAVASCRIPT as framework, packages as ESLINT and PRETTIER for linting and formatting and SASS as my stylesheet language.<br>
+I do really enjoy working with details, old school CSS animations, and with VUE, new, but simple effective ways of getting a site come to life.<br><br><br>
 
-## Recommended IDE Setup
+And this is what came out.
+A onepager, classic portfolio design and the graphic element is based on the hero image. And with a lot of CSS, details and something I really enjoyed create!
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-# jenwaller-se
+
