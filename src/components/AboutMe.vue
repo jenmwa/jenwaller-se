@@ -12,9 +12,12 @@
         functionality.
       </p>
       <p class="about-me-text">
-        Right now I’m looking for LIA for the spring <span class="color-text">2024!</span><br />
+        I'm looking for my new adventure as a Front-End Developer from june <span class="color-text">2024!</span><br />
         I’m looking for a company where I will be a part of a team and where I could continue grow in my role as a
-        Front-End developer.
+        Front-End developer in the Karlstad - Örebro area.<br />
+        Opportunitues involving React, next.js, Node, Figma & UX-design is particular intresting, but at the same
+        moment, I'm more than willingly to explore more!<br />
+        Right now I'm learning ASP.NET MVC app's, so everything's possible! ✨
       </p>
       <p>
         Want to talk?<br />
