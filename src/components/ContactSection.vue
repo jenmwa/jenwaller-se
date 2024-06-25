@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <a href="mailto:jenny.waller@medieinstitutet.se?subject=Let's Connect!" target="_blank" class="block">jenny.waller@medieinstitutet.se</a>
+    <a href="mailto:jen@jenwaller.se?subject=Let's Connect!" target="_blank" class="block">jen@jenwaller.se</a>
     <a href="tel:+46701507714" target="_blank" class="block">0701507714</a>
     <br /><br />
     <p class="textColor">

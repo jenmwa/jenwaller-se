@@ -1,32 +1,43 @@
 <template>
-  <header :style="{ backgroundImage: 'url(' + backgroundImage + ')', backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }">
+  <header
+    :style="{
+      backgroundImage: 'url(' + backgroundImage + ')',
+      backgroundSize: 'contain',
+      backgroundRepeat: 'no-repeat',
+    }"
+  >
     <div class="hero-wrapper">
       <div class="img">
         <picture>
-          <source media="(min-width:1024px)" :srcset="jwImg575" width="500" height="500">
-          <source media="(min-width:740px)" :srcset="jwImg450" width="450" height="450">
-          <img class="image" :src="jwImg360" width="360" height="360" alt="person med uppsatt mörkt hår i en knut som ser snett in i kameran">
+          <source media="(min-width:1024px)" :srcset="jwImg575" width="500" height="500" />
+          <source media="(min-width:740px)" :srcset="jwImg450" width="450" height="450" />
+          <img
+            class="image"
+            :src="jwImg360"
+            width="360"
+            height="360"
+            alt="person med uppsatt mörkt hår i en knut som ser snett in i kameran"
+          />
         </picture>
       </div>
     </div>
-      <div class="container">
-        <p>Hi There</p>
-        <h1>I'm Jenny</h1>
-        <p><span class="soon">soon-to-be</span> Front End Developer</p>
-        <p class="textColor">
-          <span class="material-symbols-outlined">location_on</span>
-          Karlstad
-        </p>
-      </div>
- 
+    <div class="container">
+      <p>Hi There</p>
+      <h1>I'm Jenny</h1>
+      <p><span class="soon">newly graduated</span> Front End Developer</p>
+      <p class="textColor">
+        <span class="material-symbols-outlined">location_on</span>
+        Karlstad
+      </p>
+    </div>
   </header>
 </template>
 
 <script setup>
-  import jwImg360 from "/src/assets/img/profilbild_jwx360w.webp";
-  import jwImg450 from "/src/assets/img/profilbild_jwx450w.webp";
-  import jwImg575 from "/src/assets/img/profilbild_jwx575w.webp";
-  import backgroundImage from '../assets/img/backgroundImgx1400w.webp'
+import jwImg360 from '/src/assets/img/profilbild_jwx360w.webp';
+import jwImg450 from '/src/assets/img/profilbild_jwx450w.webp';
+import jwImg575 from '/src/assets/img/profilbild_jwx575w.webp';
+import backgroundImage from '../assets/img/backgroundImgx1400w.webp';
 </script>
 
 <style scoped lang="scss">
@@ -104,14 +115,13 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30%;
-  width:auto;
+  width: auto;
   border-radius: 50%;
   top: 8rem;
   box-shadow: 1px 1px 16px $tertiaryColorDark;
 }
 
 @media (width >= 740px) {
-
   // header {
   //   // background-image: url('/assets/img/backgroundImgx1024w.webp');
   // }
@@ -128,7 +138,6 @@ header {
 }
 
 @media (width >= 1024px) {
-
   header {
     // background-image: url('/assets/img/backgroundImgx1400w.webp');
     flex-direction: row-reverse;
@@ -141,7 +150,6 @@ header {
       margin-right: 13%;
 
       .image {
-     
         border-radius: 50%;
         display: inline;
       }
@@ -150,10 +158,7 @@ header {
     .container {
       margin-left: 10%;
       margin-top: 30%;
-      
     }
   }
 }
-
-
 </style>

@@ -15,9 +15,10 @@
         I'm looking for my new adventure as a Front-End Developer from june <span class="color-text">2024!</span><br />
         I’m looking for a company where I will be a part of a team and where I could continue grow in my role as a
         Front-End developer in the Karlstad - Örebro area.<br />
-        opportunities involving React, Next.js, Node, Figma & to continue learning skills regarding UX/UI-design is
+        Opportunities involving React, Next.js, Node, Figma & to continue learning skills regarding UX/UI-design is
         particular intresting, but at the same moment, I'm more than willingly to explore more!<br />
-        Right now I'm learning ASP.NET MVC app's, so everything's possible! ✨
+        Right now I'm learning basic ASP.NET, and teching basic Python to kids 9-13y through Kodcentrum, so everything's
+        possible! ✨
       </p>
       <p>
         Want to talk?<br />
@@ -30,7 +31,7 @@
         <a href="https://github.com/jenmwa" target="_blank"
           ><img class="icons" src="/github-svgrepo-com.svg" alt="Github logo logo" width="35" height="35"
         /></a>
-        <a href="mailto:jenny.waller@medieinstitutet.se?subject=Let's Connect!" target="_blank" class="block"
+        <a href="mailto:jen@jenwaller.se?subject=Let's Connect!" target="_blank" class="block"
           ><img class="icons" src="/email-svgrepo-com.svg" alt="email symbol logo" width="35" height="35"
         /></a>
       </div>

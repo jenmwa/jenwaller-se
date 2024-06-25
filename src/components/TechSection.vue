@@ -26,12 +26,12 @@
         <h4>My CV</h4>
         <p>(opens in a new window)</p>
         <div class="img-container">
-          <a href="./CV-lia_2024-jenny-waller.pdf" target="_blank">
+          <a href="./CV-Jenny-Waller.pdf" target="_blank">
             <img :src="cvImage" width="200" height="300" loading="lazy" alt="Jenny wallers CV i litet format" />
           </a>
           <span class="download-text">DOWNLOAD</span>
           <!-- <a href="./jenny-waller_cv-eng.pdf" download="”jenny-waller_cv-eng”" rel="noopener noreferrer">ENG</a> -->
-          <a href="./CV-lia_2024-jenny-waller.pdf" download="jenny-waller-cv-swe" rel="noopener noreferrer">SWE</a>
+          <a href="./CV-Jenny-Waller.pdf" download="jenny-waller-cv-swe" rel="noopener noreferrer">SWE</a>
           <p class="end-words">If there's something you want to ask me,<br />(or just say HI 👋), send me a message!</p>
           <p>
             My email adress is
