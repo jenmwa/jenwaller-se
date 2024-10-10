@@ -23,7 +23,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: pnpm
+          cache: npm
+
+      - name: Install pnpm using npm
+        run: npm install -g pnpm@9.12.1
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
