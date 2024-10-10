@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue';
 export default defineConfig({
   plugins: [vue()],
   base: '/jenwaller-se/', //github
-  // base: '/', //jenwaller.se
+  //base: '/', //jenwaller.se
   define: {
     'process.env': {},
   },
